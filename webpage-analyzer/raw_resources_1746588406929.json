@@ -1,0 +1,4195 @@
+[
+  {
+    "url": "https://mao.ecer.com/test/js/guidefirstcommon.css",
+    "type": "stylesheet",
+    "size": 8255,
+    "originalSize": 8255,
+    "status": 200,
+    "headers": {
+      "cache-control": "max-age=86400",
+      "content-encoding": "gzip",
+      "content-type": "text/css",
+      "date": "Wed, 07 May 2025 03:26:35 GMT",
+      "etag": "W/\"663c3bf0-203f\"",
+      "expires": "Thu, 08 May 2025 03:26:35 GMT",
+      "last-modified": "Thu, 09 May 2024 02:58:56 GMT",
+      "myhost": "myt8",
+      "server": "nginx",
+      "vary": "Accept-Encoding\nAccept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/b-blower.com/",
+      "lineNumber": 6,
+      "columnNumber": 82
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/b-blower.com/",
+    "type": "document",
+    "size": 185748,
+    "originalSize": 185748,
+    "status": 200,
+    "headers": {
+      "content-encoding": "gzip",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 07 May 2025 03:26:35 GMT",
+      "myhost": "myt9",
+      "server": "nginx",
+      "set-cookie": "34570h=7; expires=Thu, 08-May-2025 03:26:35 GMT; Max-Age=86400; path=/\n34570h=7; expires=Thu, 08-May-2025 03:26:35 GMT; Max-Age=86400; path=/\n34570h=2; expires=Thu, 08-May-2025 03:26:35 GMT; Max-Age=86400; path=/\n34570h=11; expires=Thu, 08-May-2025 03:26:35 GMT; Max-Age=86400; path=/\n34570h=1; expires=Thu, 08-May-2025 03:26:35 GMT; Max-Age=86400; path=/\n34570h=4; expires=Thu, 08-May-2025 03:26:35 GMT; Max-Age=86400; path=/\n34570h=10; expires=Thu, 08-May-2025 03:26:35 GMT; Max-Age=86400; path=/\n34570h=1; expires=Thu, 08-May-2025 03:26:35 GMT; Max-Age=86400; path=/\n34570h=8; expires=Thu, 08-May-2025 03:26:35 GMT; Max-Age=86400; path=/\n34570h=8; expires=Thu, 08-May-2025 03:26:35 GMT; Max-Age=86400; path=/\n34570h=11; expires=Thu, 08-May-2025 03:26:35 GMT; Max-Age=86400; path=/\n34570h=5; expires=Thu, 08-May-2025 03:26:35 GMT; Max-Age=86400; path=/\n34570h=1; expires=Thu, 08-May-2025 03:26:35 GMT; Max-Age=86400; path=/\n34570h=3; expires=Thu, 08-May-2025 03:26:35 GMT; Max-Age=86400; path=/\n34570h=5; expires=Thu, 08-May-2025 03:26:35 GMT; Max-Age=86400; path=/",
+      "vary": "Accept-Encoding\nAccept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "other"
+    },
+    "redirectChain": [],
+    "isNavigation": true,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/images/floatimage_wa.gif",
+    "type": "image",
+    "size": 15418,
+    "originalSize": 15418,
+    "status": 200,
+    "headers": {
+      "cache-control": "max-age=2592000",
+      "content-encoding": "gzip",
+      "content-type": "image/gif",
+      "date": "Wed, 07 May 2025 03:26:35 GMT",
+      "etag": "W/\"6541b9cc-3c3a\"",
+      "expires": "Fri, 06 Jun 2025 03:26:35 GMT",
+      "last-modified": "Wed, 01 Nov 2023 02:37:00 GMT",
+      "myhost": "myt9",
+      "server": "nginx",
+      "vary": "Accept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/b-blower.com/",
+      "lineNumber": 64,
+      "columnNumber": 108
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/b-blower.com/logo.gif",
+    "type": "image",
+    "size": 1330,
+    "originalSize": 1330,
+    "status": 200,
+    "headers": {
+      "content-encoding": "gzip",
+      "content-type": "image/gif",
+      "date": "Wed, 07 May 2025 03:26:35 GMT",
+      "expires": "Fri, 06 Jun 2025 03:26:35 GMT",
+      "last-modified": "Fri, 29 Nov 2024 09:31:20 GMT",
+      "myhost": "myt8",
+      "server": "nginx",
+      "vary": "Accept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/b-blower.com/",
+      "lineNumber": 61,
+      "columnNumber": 72
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/js/guidefirstcommon.js",
+    "type": "script",
+    "size": 30715,
+    "originalSize": 30715,
+    "status": 200,
+    "headers": {
+      "cache-control": "max-age=86400",
+      "content-encoding": "gzip",
+      "content-type": "application/x-javascript",
+      "date": "Wed, 07 May 2025 03:26:35 GMT",
+      "etag": "W/\"66cfcdca-77fb\"",
+      "expires": "Thu, 08 May 2025 03:26:35 GMT",
+      "last-modified": "Thu, 29 Aug 2024 01:24:26 GMT",
+      "myhost": "myt8",
+      "server": "nginx",
+      "vary": "Accept-Encoding\nAccept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/b-blower.com/",
+      "lineNumber": 17,
+      "columnNumber": 66
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/commonV2.css?ver=1746529251",
+    "type": "stylesheet",
+    "size": 449196,
+    "originalSize": 449196,
+    "status": 200,
+    "headers": {
+      "content-encoding": "gzip",
+      "content-type": "text/css",
+      "date": "Wed, 07 May 2025 03:26:35 GMT",
+      "etag": "W/\"6819ebe3-6daac\"",
+      "last-modified": "Tue, 06 May 2025 11:00:51 GMT",
+      "myhost": "myt9",
+      "server": "nginx",
+      "vary": "Accept-Encoding\nAccept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/b-blower.com/",
+      "lineNumber": 56,
+      "columnNumber": 86
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/images/close.png",
+    "type": "image",
+    "size": 382,
+    "originalSize": 382,
+    "status": 200,
+    "headers": {
+      "accept-ranges": "bytes",
+      "cache-control": "max-age=2592000",
+      "content-length": "382",
+      "content-type": "image/png",
+      "date": "Wed, 07 May 2025 03:26:36 GMT",
+      "etag": "\"6541b9cc-17e\"",
+      "expires": "Fri, 06 Jun 2025 03:26:36 GMT",
+      "last-modified": "Wed, 01 Nov 2023 02:37:00 GMT",
+      "myhost": "myt9",
+      "server": "nginx"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/b-blower.com/",
+      "lineNumber": 964,
+      "columnNumber": 91
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/images/error.png",
+    "type": "image",
+    "size": 771,
+    "originalSize": 771,
+    "status": 200,
+    "headers": {
+      "accept-ranges": "bytes",
+      "cache-control": "max-age=2592000",
+      "content-length": "771",
+      "content-type": "image/png",
+      "date": "Wed, 07 May 2025 03:26:36 GMT",
+      "etag": "\"6541b9cb-303\"",
+      "expires": "Fri, 06 Jun 2025 03:26:36 GMT",
+      "last-modified": "Wed, 01 Nov 2023 02:36:59 GMT",
+      "myhost": "myt8",
+      "server": "nginx"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/b-blower.com/",
+      "lineNumber": 974,
+      "columnNumber": 124
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/images/load_icon.gif",
+    "type": "image",
+    "size": 3132,
+    "originalSize": 3132,
+    "status": 200,
+    "headers": {
+      "cache-control": "max-age=2592000",
+      "content-encoding": "gzip",
+      "content-type": "image/gif",
+      "date": "Wed, 07 May 2025 03:26:36 GMT",
+      "etag": "W/\"6541b9a5-c3c\"",
+      "expires": "Fri, 06 Jun 2025 03:26:36 GMT",
+      "last-modified": "Wed, 01 Nov 2023 02:36:21 GMT",
+      "myhost": "myt9",
+      "server": "nginx",
+      "vary": "Accept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/b-blower.com/",
+      "lineNumber": 1276,
+      "columnNumber": 49
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/images/case_99516_bg.png",
+    "type": "image",
+    "size": 31636,
+    "originalSize": 31636,
+    "status": 200,
+    "headers": {
+      "cache-control": "max-age=2592000",
+      "content-encoding": "gzip",
+      "content-type": "image/png",
+      "date": "Wed, 07 May 2025 03:26:36 GMT",
+      "etag": "W/\"6541b9cc-7b94\"",
+      "expires": "Fri, 06 Jun 2025 03:26:36 GMT",
+      "last-modified": "Wed, 01 Nov 2023 02:37:00 GMT",
+      "myhost": "myt8",
+      "server": "nginx",
+      "vary": "Accept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/b-blower.com/",
+      "lineNumber": 2437,
+      "columnNumber": 55
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+    "type": "script",
+    "size": 97163,
+    "originalSize": 97163,
+    "status": 200,
+    "headers": {
+      "cache-control": "max-age=86400",
+      "content-encoding": "gzip",
+      "content-type": "application/x-javascript",
+      "date": "Wed, 07 May 2025 03:26:36 GMT",
+      "etag": "W/\"6541b9cd-17b8b\"",
+      "expires": "Thu, 08 May 2025 03:26:36 GMT",
+      "last-modified": "Wed, 01 Nov 2023 02:37:01 GMT",
+      "myhost": "myt9",
+      "server": "nginx",
+      "vary": "Accept-Encoding\nAccept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/b-blower.com/",
+      "lineNumber": 2779,
+      "columnNumber": 66
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/js/guidecommon.js",
+    "type": "script",
+    "size": 34414,
+    "originalSize": 34414,
+    "status": 200,
+    "headers": {
+      "cache-control": "max-age=86400",
+      "content-encoding": "gzip",
+      "content-type": "application/x-javascript",
+      "date": "Wed, 07 May 2025 03:26:36 GMT",
+      "etag": "W/\"67f9db08-866e\"",
+      "expires": "Thu, 08 May 2025 03:26:36 GMT",
+      "last-modified": "Sat, 12 Apr 2025 03:16:24 GMT",
+      "myhost": "myt9",
+      "server": "nginx",
+      "vary": "Accept-Encoding\nAccept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/b-blower.com/",
+      "lineNumber": 2781,
+      "columnNumber": 61
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+    "type": "script",
+    "size": 88125,
+    "originalSize": 88125,
+    "status": 200,
+    "headers": {
+      "content-encoding": "gzip",
+      "content-type": "application/x-javascript",
+      "date": "Wed, 07 May 2025 03:26:36 GMT",
+      "etag": "W/\"6819ebe1-1583d\"",
+      "last-modified": "Tue, 06 May 2025 11:00:49 GMT",
+      "myhost": "myt8",
+      "server": "nginx",
+      "vary": "Accept-Encoding\nAccept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/b-blower.com/",
+      "lineNumber": 2780,
+      "columnNumber": 107
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/js/webim.js",
+    "type": "script",
+    "size": 21179,
+    "originalSize": 21179,
+    "status": 200,
+    "headers": {
+      "cache-control": "max-age=86400",
+      "content-encoding": "gzip",
+      "content-type": "application/x-javascript",
+      "date": "Wed, 07 May 2025 03:26:36 GMT",
+      "etag": "W/\"67453421-52bb\"",
+      "expires": "Thu, 08 May 2025 03:26:36 GMT",
+      "last-modified": "Tue, 26 Nov 2024 02:36:17 GMT",
+      "myhost": "myt8",
+      "server": "nginx",
+      "vary": "Accept-Encoding\nAccept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/b-blower.com/",
+      "lineNumber": 2782,
+      "columnNumber": 55
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/images/fonts/Roboto.woff",
+    "type": "font",
+    "size": 68392,
+    "originalSize": 68392,
+    "status": 200,
+    "headers": {
+      "accept-ranges": "bytes",
+      "content-length": "68392",
+      "content-type": "font/woff",
+      "date": "Wed, 07 May 2025 03:26:36 GMT",
+      "etag": "\"6541b9cb-10b28\"",
+      "last-modified": "Wed, 01 Nov 2023 02:36:59 GMT",
+      "myhost": "myt9",
+      "server": "nginx"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/commonV2.css?ver=1746529251"
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+    "type": "script",
+    "size": 173721,
+    "originalSize": 173721,
+    "status": 200,
+    "headers": {
+      "access-control-allow-credentials": "true",
+      "access-control-allow-origin": "*",
+      "cdn-cache": "HIT from bdb5",
+      "content-encoding": "gzip",
+      "content-type": "application/javascript",
+      "cross-origin-embedder-policy": "require-corp",
+      "cross-origin-opener-policy": "same-origin",
+      "cross-origin-resource-policy": "cross-origin",
+      "date": "Wed, 07 May 2025 03:25:20 GMT",
+      "etag": "W/\"637db693-2a699\"",
+      "last-modified": "Wed, 23 Nov 2022 05:58:43 GMT",
+      "server": "Tengine",
+      "set-cookie": "ueid=2ee15618d72671e79bf969c0b68e3eb2; domain=vodcdn.ecerimg.com; path=/; expires=Fri, 31 Dec 9999 23:59:59 GMT",
+      "vary": "Accept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/b-blower.com/",
+      "lineNumber": 1750,
+      "columnNumber": 70
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/images/ctm_icon_vr.png",
+    "type": "image",
+    "size": 1748,
+    "originalSize": 1748,
+    "status": 200,
+    "headers": {
+      "cache-control": "max-age=2592000",
+      "content-encoding": "gzip",
+      "content-type": "image/png",
+      "date": "Wed, 07 May 2025 03:26:36 GMT",
+      "etag": "W/\"6541b9cc-6d4\"",
+      "expires": "Fri, 06 Jun 2025 03:26:36 GMT",
+      "last-modified": "Wed, 01 Nov 2023 02:37:00 GMT",
+      "myhost": "myt8",
+      "server": "nginx",
+      "vary": "Accept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/b-blower.com/",
+      "lineNumber": 1608,
+      "columnNumber": 74
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/images/fonts/iconfont_module.woff?t=1632726555099",
+    "type": "font",
+    "size": 24544,
+    "originalSize": 24544,
+    "status": 200,
+    "headers": {
+      "accept-ranges": "bytes",
+      "content-length": "24544",
+      "content-type": "font/woff",
+      "date": "Wed, 07 May 2025 03:26:36 GMT",
+      "etag": "\"65485f4b-5fe0\"",
+      "last-modified": "Mon, 06 Nov 2023 03:36:43 GMT",
+      "myhost": "myt9",
+      "server": "nginx"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/commonV2.css?ver=1746529251"
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://vodcdn.ecerimg.com/resource/player/ePlayer.js",
+    "type": "script",
+    "size": 11893,
+    "originalSize": 11893,
+    "status": 200,
+    "headers": {
+      "access-control-allow-credentials": "true",
+      "access-control-allow-origin": "*",
+      "cdn-cache": "HIT from bdb5",
+      "content-encoding": "gzip",
+      "content-type": "application/javascript",
+      "cross-origin-embedder-policy": "require-corp",
+      "cross-origin-opener-policy": "same-origin",
+      "cross-origin-resource-policy": "cross-origin",
+      "date": "Wed, 07 May 2025 03:25:20 GMT",
+      "etag": "W/\"6790aadc-2e75\"",
+      "last-modified": "Wed, 22 Jan 2025 08:22:52 GMT",
+      "server": "Tengine",
+      "set-cookie": "ueid=e80d9c98216d960201b5b66df696dbed; domain=vodcdn.ecerimg.com; path=/; expires=Fri, 31 Dec 9999 23:59:59 GMT",
+      "vary": "Accept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/b-blower.com/",
+      "lineNumber": 1752,
+      "columnNumber": 68
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+    "type": "script",
+    "size": 308862,
+    "originalSize": 308862,
+    "status": 200,
+    "headers": {
+      "access-control-allow-credentials": "true",
+      "access-control-allow-origin": "*",
+      "cdn-cache": "HIT from bdb5",
+      "content-encoding": "gzip",
+      "content-type": "application/javascript",
+      "cross-origin-embedder-policy": "require-corp",
+      "cross-origin-opener-policy": "same-origin",
+      "cross-origin-resource-policy": "cross-origin",
+      "date": "Wed, 07 May 2025 03:25:20 GMT",
+      "etag": "W/\"637db696-4b67e\"",
+      "last-modified": "Wed, 23 Nov 2022 05:58:46 GMT",
+      "server": "Tengine",
+      "set-cookie": "ueid=62bf46382c84d33f2755493d68ee87a3; domain=vodcdn.ecerimg.com; path=/; expires=Fri, 31 Dec 9999 23:59:59 GMT",
+      "vary": "Accept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/b-blower.com/",
+      "lineNumber": 1751,
+      "columnNumber": 83
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/images/woweare_99516_bg.png",
+    "type": "image",
+    "size": 10081,
+    "originalSize": 10081,
+    "status": 200,
+    "headers": {
+      "cache-control": "max-age=2592000",
+      "content-encoding": "gzip",
+      "content-type": "image/png",
+      "date": "Wed, 07 May 2025 03:26:36 GMT",
+      "etag": "W/\"6541b9cc-2761\"",
+      "expires": "Fri, 06 Jun 2025 03:26:36 GMT",
+      "last-modified": "Wed, 01 Nov 2023 02:37:00 GMT",
+      "myhost": "myt8",
+      "server": "nginx",
+      "vary": "Accept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/commonV2.css?ver=1746529251"
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/images/99516_sprites_home.png",
+    "type": "image",
+    "size": 9523,
+    "originalSize": 9523,
+    "status": 200,
+    "headers": {
+      "cache-control": "max-age=2592000",
+      "content-encoding": "gzip",
+      "content-type": "image/png",
+      "date": "Wed, 07 May 2025 03:26:36 GMT",
+      "etag": "W/\"6541b9cc-2533\"",
+      "expires": "Fri, 06 Jun 2025 03:26:36 GMT",
+      "last-modified": "Wed, 01 Nov 2023 02:37:00 GMT",
+      "myhost": "myt9",
+      "server": "nginx",
+      "vary": "Accept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/commonV2.css?ver=1746529251"
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/images/home_yellow_99707.png",
+    "type": "image",
+    "size": 6947,
+    "originalSize": 6947,
+    "status": 200,
+    "headers": {
+      "cache-control": "max-age=2592000",
+      "content-encoding": "gzip",
+      "content-type": "image/png",
+      "date": "Wed, 07 May 2025 03:26:36 GMT",
+      "etag": "W/\"6541b9cc-1b23\"",
+      "expires": "Fri, 06 Jun 2025 03:26:36 GMT",
+      "last-modified": "Wed, 01 Nov 2023 02:37:00 GMT",
+      "myhost": "myt9",
+      "server": "nginx",
+      "vary": "Accept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/commonV2.css?ver=1746529251"
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/images/sprite_99516.png",
+    "type": "image",
+    "size": 3486,
+    "originalSize": 3486,
+    "status": 200,
+    "headers": {
+      "cache-control": "max-age=2592000",
+      "content-encoding": "gzip",
+      "content-type": "image/png",
+      "date": "Wed, 07 May 2025 03:26:36 GMT",
+      "etag": "W/\"6541b9cc-d9e\"",
+      "expires": "Fri, 06 Jun 2025 03:26:36 GMT",
+      "last-modified": "Wed, 01 Nov 2023 02:37:00 GMT",
+      "myhost": "myt8",
+      "server": "nginx",
+      "vary": "Accept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/commonV2.css?ver=1746529251"
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/images/99516_sprites_home_3.png",
+    "type": "image",
+    "size": 8585,
+    "originalSize": 8585,
+    "status": 200,
+    "headers": {
+      "cache-control": "max-age=2592000",
+      "content-encoding": "gzip",
+      "content-type": "image/png",
+      "date": "Wed, 07 May 2025 03:26:36 GMT",
+      "etag": "W/\"6541b9cc-2189\"",
+      "expires": "Fri, 06 Jun 2025 03:26:36 GMT",
+      "last-modified": "Wed, 01 Nov 2023 02:37:00 GMT",
+      "myhost": "myt9",
+      "server": "nginx",
+      "vary": "Accept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/commonV2.css?ver=1746529251"
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/images/cantact_bg99516.jpg",
+    "type": "image",
+    "size": 101621,
+    "originalSize": 101621,
+    "status": 200,
+    "headers": {
+      "cache-control": "max-age=2592000",
+      "content-encoding": "gzip",
+      "content-type": "image/jpeg",
+      "date": "Wed, 07 May 2025 03:26:36 GMT",
+      "etag": "W/\"6541b9cb-18cf5\"",
+      "expires": "Fri, 06 Jun 2025 03:26:36 GMT",
+      "last-modified": "Wed, 01 Nov 2023 02:36:59 GMT",
+      "myhost": "myt8",
+      "server": "nginx",
+      "vary": "Accept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/commonV2.css?ver=1746529251"
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/vodcdn/videos/encoder/1202412/1f259e3d28515ea5ad3f4db28f501f6e/playlist.m3u8",
+    "type": "xhr",
+    "size": 233,
+    "originalSize": 233,
+    "status": 200,
+    "headers": {
+      "accept-ranges": "bytes",
+      "access-control-allow-credentials": "true",
+      "access-control-allow-origin": "*",
+      "cdn-cache": "HIT from bdb5",
+      "content-length": "233",
+      "content-type": "application/vnd.apple.mpegurl",
+      "cross-origin-embedder-policy": "require-corp",
+      "cross-origin-opener-policy": "same-origin",
+      "cross-origin-resource-policy": "cross-origin",
+      "date": "Wed, 07 May 2025 03:26:36 GMT",
+      "etag": "\"674eed75-e9\"",
+      "last-modified": "Tue, 03 Dec 2024 11:37:25 GMT",
+      "myhost": "myt8",
+      "server": "nginx",
+      "set-cookie": "ueid=2b7809328e375a023d415fc803e879f8; domain=vodcdn.ecerimg.com; path=/; expires=Fri, 31 Dec 9999 23:59:59 GMT"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [
+          {
+            "functionName": "_createXHR",
+            "scriptId": "19",
+            "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+            "lineNumber": 11,
+            "columnNumber": 48828
+          },
+          {
+            "functionName": "createXHR",
+            "scriptId": "19",
+            "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+            "lineNumber": 11,
+            "columnNumber": 46860
+          },
+          {
+            "functionName": "",
+            "scriptId": "23",
+            "url": "https://vodcdn.ecerimg.com/resource/player/ePlayer.js",
+            "lineNumber": 0,
+            "columnNumber": 7883
+          },
+          {
+            "functionName": "F",
+            "scriptId": "23",
+            "url": "https://vodcdn.ecerimg.com/resource/player/ePlayer.js",
+            "lineNumber": 0,
+            "columnNumber": 7805
+          },
+          {
+            "functionName": "t",
+            "scriptId": "23",
+            "url": "https://vodcdn.ecerimg.com/resource/player/ePlayer.js",
+            "lineNumber": 0,
+            "columnNumber": 9452
+          },
+          {
+            "functionName": "",
+            "scriptId": "16",
+            "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+            "lineNumber": 0,
+            "columnNumber": 42147
+          }
+        ]
+      }
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/getseller.html",
+    "type": "xhr",
+    "size": 7,
+    "originalSize": 7,
+    "status": 200,
+    "headers": {
+      "content-encoding": "gzip",
+      "content-type": "text/html",
+      "date": "Wed, 07 May 2025 03:26:36 GMT",
+      "myhost": "myt9",
+      "server": "nginx",
+      "vary": "Accept-Encoding\nAccept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [
+          {
+            "functionName": "send",
+            "scriptId": "10",
+            "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+            "lineNumber": 3,
+            "columnNumber": 26576
+          },
+          {
+            "functionName": "ajax",
+            "scriptId": "10",
+            "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+            "lineNumber": 3,
+            "columnNumber": 22179
+          },
+          {
+            "functionName": "",
+            "scriptId": "16",
+            "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+            "lineNumber": 0,
+            "columnNumber": 30994
+          },
+          {
+            "functionName": "i",
+            "scriptId": "10",
+            "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+            "lineNumber": 1,
+            "columnNumber": 27448
+          },
+          {
+            "functionName": "fireWith",
+            "scriptId": "10",
+            "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+            "lineNumber": 1,
+            "columnNumber": 28212
+          },
+          {
+            "functionName": "ready",
+            "scriptId": "10",
+            "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+            "lineNumber": 1,
+            "columnNumber": 30005
+          },
+          {
+            "functionName": "K",
+            "scriptId": "10",
+            "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+            "lineNumber": 1,
+            "columnNumber": 30367
+          }
+        ]
+      }
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/b-blower.com/photo/pt30464310-electric_bicycle_bike_conversion_kit_rear_wheel_48_volt_1000_watt_with_led_display.jpg",
+    "type": "image",
+    "size": 98828,
+    "originalSize": 98828,
+    "status": 200,
+    "headers": {
+      "content-encoding": "gzip",
+      "content-type": "image/jpeg",
+      "date": "Wed, 07 May 2025 03:26:36 GMT",
+      "expires": "Thu, 05 Jun 2025 10:26:37 GMT",
+      "last-modified": "Mon, 06 Feb 2023 02:42:14 GMT",
+      "server": "nginx",
+      "vary": "Accept-Encoding",
+      "x-cache": "/test/b-blower.com/photo/pt30464310-electric_bicycle_bike_conversion_kit_rear_wheel_48_volt_1000_watt_with_led_display.jpg|HIT"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [],
+        "parent": {
+          "description": "Image",
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 0,
+              "columnNumber": 30134
+            },
+            {
+              "functionName": "each",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 2880
+            },
+            {
+              "functionName": "each",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 845
+            },
+            {
+              "functionName": "f",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 0,
+              "columnNumber": 29743
+            },
+            {
+              "functionName": "delayLoading",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 0,
+              "columnNumber": 30539
+            },
+            {
+              "functionName": "",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 0,
+              "columnNumber": 30800
+            },
+            {
+              "functionName": "i",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 27448
+            },
+            {
+              "functionName": "fireWith",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 28212
+            },
+            {
+              "functionName": "ready",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 30005
+            },
+            {
+              "functionName": "K",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 30367
+            }
+          ]
+        }
+      }
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/stats.js",
+    "type": "script",
+    "size": 0,
+    "originalSize": 0,
+    "status": 200,
+    "headers": {
+      "content-length": "0",
+      "content-type": "application/x-javascript",
+      "date": "Wed, 07 May 2025 03:26:36 GMT",
+      "myhost": "myt9",
+      "server": "nginx"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [
+          {
+            "functionName": "",
+            "scriptId": "24",
+            "url": "https://mao.ecer.com/test/b-blower.com/",
+            "lineNumber": 2780,
+            "columnNumber": 333
+          },
+          {
+            "functionName": "",
+            "scriptId": "24",
+            "url": "https://mao.ecer.com/test/b-blower.com/",
+            "lineNumber": 2780,
+            "columnNumber": 355
+          }
+        ]
+      }
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": false
+  },
+  {
+    "url": "https://mao.ecer.com/test/b-blower.com/photo/pt30464340-48v_1500w_fat_tire_electric_bike_kit_with_rims_electric_bike_kit.jpg",
+    "type": "image",
+    "size": 140453,
+    "originalSize": 140453,
+    "status": 200,
+    "headers": {
+      "content-encoding": "gzip",
+      "content-type": "image/jpeg",
+      "date": "Wed, 07 May 2025 03:26:36 GMT",
+      "expires": "Thu, 05 Jun 2025 10:26:37 GMT",
+      "last-modified": "Mon, 06 Feb 2023 02:42:15 GMT",
+      "server": "nginx",
+      "vary": "Accept-Encoding",
+      "x-cache": "/test/b-blower.com/photo/pt30464340-48v_1500w_fat_tire_electric_bike_kit_with_rims_electric_bike_kit.jpg|HIT"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [],
+        "parent": {
+          "description": "Image",
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 0,
+              "columnNumber": 30134
+            },
+            {
+              "functionName": "each",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 2880
+            },
+            {
+              "functionName": "each",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 845
+            },
+            {
+              "functionName": "f",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 0,
+              "columnNumber": 29743
+            },
+            {
+              "functionName": "delayLoading",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 0,
+              "columnNumber": 30539
+            },
+            {
+              "functionName": "",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 0,
+              "columnNumber": 30800
+            },
+            {
+              "functionName": "i",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 27448
+            },
+            {
+              "functionName": "fireWith",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 28212
+            },
+            {
+              "functionName": "ready",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 30005
+            },
+            {
+              "functionName": "K",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 30367
+            }
+          ]
+        }
+      }
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "blob:https://mao.ecer.com/bafdbaa1-01b4-4485-a64a-ae62b0405f8a",
+    "type": "script",
+    "size": 7553,
+    "originalSize": 7553,
+    "status": 200,
+    "headers": {
+      "content-type": "application/javascript",
+      "content-length": "7553"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "other",
+      "url": "https://mao.ecer.com/test/b-blower.com/"
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "blob:https://mao.ecer.com/ea488701-e8c0-4024-a4b3-63bd4246dd59",
+    "type": "script",
+    "size": 88866,
+    "originalSize": 88866,
+    "status": 200,
+    "headers": {
+      "content-type": "application/javascript",
+      "content-length": "88866"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "other",
+      "url": "https://mao.ecer.com/test/b-blower.com/"
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "blob:https://mao.ecer.com/cad7287e-c96d-4d13-8f00-23de7dd3a135",
+    "type": "script",
+    "size": 88866,
+    "originalSize": 88866,
+    "status": 200,
+    "headers": {
+      "content-type": "application/javascript",
+      "content-length": "88866"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "other",
+      "url": "https://mao.ecer.com/test/b-blower.com/"
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/vodcdn/videos/encoder/1202412/1f259e3d28515ea5ad3f4db28f501f6e/playlist.m3u8",
+    "type": "xhr",
+    "size": 233,
+    "originalSize": 233,
+    "status": 200,
+    "headers": {
+      "accept-ranges": "bytes",
+      "access-control-allow-credentials": "true",
+      "access-control-allow-origin": "*",
+      "cdn-cache": "HIT from bdb5",
+      "content-length": "233",
+      "content-type": "application/vnd.apple.mpegurl",
+      "cross-origin-embedder-policy": "require-corp",
+      "cross-origin-opener-policy": "same-origin",
+      "cross-origin-resource-policy": "cross-origin",
+      "date": "Wed, 07 May 2025 03:26:37 GMT",
+      "etag": "\"674eed75-e9\"",
+      "last-modified": "Tue, 03 Dec 2024 11:37:25 GMT",
+      "myhost": "myt9",
+      "server": "nginx",
+      "set-cookie": "ueid=abf4bbf0585601bce2b3cb9423fd8835; domain=vodcdn.ecerimg.com; path=/; expires=Fri, 31 Dec 9999 23:59:59 GMT"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [
+          {
+            "functionName": "_createXHR",
+            "scriptId": "19",
+            "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+            "lineNumber": 11,
+            "columnNumber": 48828
+          },
+          {
+            "functionName": "createXHR",
+            "scriptId": "19",
+            "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+            "lineNumber": 11,
+            "columnNumber": 46860
+          },
+          {
+            "functionName": "e",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 44271
+          },
+          {
+            "functionName": "i.start",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 41362
+          },
+          {
+            "functionName": "i.load",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 40697
+          },
+          {
+            "functionName": "t",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 13,
+            "columnNumber": 6542
+          },
+          {
+            "functionName": "i.src",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 13,
+            "columnNumber": 56315
+          },
+          {
+            "functionName": "handleSource",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 13,
+            "columnNumber": 68857
+          },
+          {
+            "functionName": "r.setSource",
+            "scriptId": "19",
+            "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+            "lineNumber": 11,
+            "columnNumber": 61708
+          },
+          {
+            "functionName": "e",
+            "scriptId": "19",
+            "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+            "lineNumber": 11,
+            "columnNumber": 109085
+          },
+          {
+            "functionName": "e.loadTech_",
+            "scriptId": "19",
+            "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+            "lineNumber": 11,
+            "columnNumber": 127021
+          },
+          {
+            "functionName": "e.src_",
+            "scriptId": "19",
+            "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+            "lineNumber": 11,
+            "columnNumber": 145860
+          },
+          {
+            "functionName": "",
+            "scriptId": "19",
+            "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+            "lineNumber": 11,
+            "columnNumber": 144969
+          },
+          {
+            "functionName": "setSourceHelper",
+            "scriptId": "19",
+            "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+            "lineNumber": 11,
+            "columnNumber": 63950
+          },
+          {
+            "functionName": "setSourceHelper",
+            "scriptId": "19",
+            "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+            "lineNumber": 11,
+            "columnNumber": 63957
+          },
+          {
+            "functionName": "",
+            "scriptId": "19",
+            "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+            "lineNumber": 11,
+            "columnNumber": 62299
+          },
+          {
+            "functionName": "",
+            "scriptId": "19",
+            "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+            "lineNumber": 11,
+            "columnNumber": 32022
+          }
+        ],
+        "parent": {
+          "description": "setTimeout",
+          "callFrames": [
+            {
+              "functionName": "e.setTimeout",
+              "scriptId": "19",
+              "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+              "lineNumber": 11,
+              "columnNumber": 31948
+            },
+            {
+              "functionName": "setSource",
+              "scriptId": "19",
+              "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+              "lineNumber": 11,
+              "columnNumber": 62270
+            },
+            {
+              "functionName": "e.handleSrc_",
+              "scriptId": "19",
+              "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+              "lineNumber": 11,
+              "columnNumber": 144865
+            },
+            {
+              "functionName": "e.src",
+              "scriptId": "19",
+              "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+              "lineNumber": 11,
+              "columnNumber": 145543
+            },
+            {
+              "functionName": "e",
+              "scriptId": "19",
+              "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+              "lineNumber": 11,
+              "columnNumber": 65372
+            },
+            {
+              "functionName": "e.addChild",
+              "scriptId": "19",
+              "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+              "lineNumber": 11,
+              "columnNumber": 28161
+            },
+            {
+              "functionName": "",
+              "scriptId": "19",
+              "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+              "lineNumber": 11,
+              "columnNumber": 29745
+            },
+            {
+              "functionName": "e.initChildren",
+              "scriptId": "19",
+              "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+              "lineNumber": 11,
+              "columnNumber": 29611
+            },
+            {
+              "functionName": "r",
+              "scriptId": "19",
+              "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+              "lineNumber": 11,
+              "columnNumber": 120400
+            },
+            {
+              "functionName": "videojs",
+              "scriptId": "19",
+              "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+              "lineNumber": 21,
+              "columnNumber": 10546
+            },
+            {
+              "functionName": "",
+              "scriptId": "23",
+              "url": "https://vodcdn.ecerimg.com/resource/player/ePlayer.js",
+              "lineNumber": 0,
+              "columnNumber": 9536
+            }
+          ],
+          "parent": {
+            "description": "Promise.then",
+            "callFrames": [
+              {
+                "functionName": "t",
+                "scriptId": "23",
+                "url": "https://vodcdn.ecerimg.com/resource/player/ePlayer.js",
+                "lineNumber": 0,
+                "columnNumber": 9472
+              },
+              {
+                "functionName": "",
+                "scriptId": "16",
+                "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+                "lineNumber": 0,
+                "columnNumber": 42147
+              }
+            ]
+          }
+        }
+      }
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/b-blower.com/photo/pt30464416-36v_48v_250w_350w_500w_cheap_front_or_rear_kit_electric_bike_electric_bike_kit_front.jpg",
+    "type": "image",
+    "size": 133989,
+    "originalSize": 133989,
+    "status": 200,
+    "headers": {
+      "content-encoding": "gzip",
+      "content-type": "image/jpeg",
+      "date": "Wed, 07 May 2025 03:26:36 GMT",
+      "expires": "Thu, 05 Jun 2025 10:26:37 GMT",
+      "last-modified": "Mon, 06 Feb 2023 02:42:15 GMT",
+      "server": "nginx",
+      "vary": "Accept-Encoding",
+      "x-cache": "/test/b-blower.com/photo/pt30464416-36v_48v_250w_350w_500w_cheap_front_or_rear_kit_electric_bike_electric_bike_kit_front.jpg|HIT"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [],
+        "parent": {
+          "description": "Image",
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 0,
+              "columnNumber": 30134
+            },
+            {
+              "functionName": "each",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 2880
+            },
+            {
+              "functionName": "each",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 845
+            },
+            {
+              "functionName": "f",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 0,
+              "columnNumber": 29743
+            },
+            {
+              "functionName": "delayLoading",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 0,
+              "columnNumber": 30539
+            },
+            {
+              "functionName": "",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 0,
+              "columnNumber": 30800
+            },
+            {
+              "functionName": "i",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 27448
+            },
+            {
+              "functionName": "fireWith",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 28212
+            },
+            {
+              "functionName": "ready",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 30005
+            },
+            {
+              "functionName": "K",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 30367
+            }
+          ]
+        }
+      }
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/b-blower.com/photo/pt30463708-new_fancy_pie_with_smart_sine_wave_controller_e_bike_motor.jpg",
+    "type": "image",
+    "size": 136055,
+    "originalSize": 136055,
+    "status": 200,
+    "headers": {
+      "content-encoding": "gzip",
+      "content-type": "image/jpeg",
+      "date": "Wed, 07 May 2025 03:26:36 GMT",
+      "expires": "Wed, 21 May 2025 03:48:24 GMT",
+      "last-modified": "Mon, 06 Feb 2023 02:42:12 GMT",
+      "server": "nginx",
+      "vary": "Accept-Encoding",
+      "x-cache": "/test/b-blower.com/photo/pt30463708-new_fancy_pie_with_smart_sine_wave_controller_e_bike_motor.jpg|HIT"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [],
+        "parent": {
+          "description": "Image",
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 0,
+              "columnNumber": 30134
+            },
+            {
+              "functionName": "each",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 2880
+            },
+            {
+              "functionName": "each",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 845
+            },
+            {
+              "functionName": "f",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 0,
+              "columnNumber": 29743
+            },
+            {
+              "functionName": "delayLoading",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 0,
+              "columnNumber": 30539
+            },
+            {
+              "functionName": "",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 0,
+              "columnNumber": 30800
+            },
+            {
+              "functionName": "i",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 27448
+            },
+            {
+              "functionName": "fireWith",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 28212
+            },
+            {
+              "functionName": "ready",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 30005
+            },
+            {
+              "functionName": "K",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 30367
+            }
+          ]
+        }
+      }
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/b-blower.com/photo/pt30465481-factory_supply_electric_bicycle_conversion_kit_10inch_12inch_16inch_electric_scooters_48v1200w_1500w_electric_bicycle.jpg",
+    "type": "image",
+    "size": 80672,
+    "originalSize": 80672,
+    "status": 200,
+    "headers": {
+      "content-encoding": "gzip",
+      "content-type": "image/jpeg",
+      "date": "Wed, 07 May 2025 03:26:36 GMT",
+      "expires": "Wed, 21 May 2025 03:48:24 GMT",
+      "last-modified": "Mon, 06 Feb 2023 02:42:28 GMT",
+      "server": "nginx",
+      "vary": "Accept-Encoding",
+      "x-cache": "/test/b-blower.com/photo/pt30465481-factory_supply_electric_bicycle_conversion_kit_10inch_12inch_16inch_electric_scooters_48v1200w_1500w_electric_bicycle.jpg|HIT"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [],
+        "parent": {
+          "description": "Image",
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 0,
+              "columnNumber": 30134
+            },
+            {
+              "functionName": "each",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 2880
+            },
+            {
+              "functionName": "each",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 845
+            },
+            {
+              "functionName": "f",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 0,
+              "columnNumber": 29743
+            },
+            {
+              "functionName": "delayLoading",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 0,
+              "columnNumber": 30539
+            },
+            {
+              "functionName": "",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 0,
+              "columnNumber": 30800
+            },
+            {
+              "functionName": "i",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 27448
+            },
+            {
+              "functionName": "fireWith",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 28212
+            },
+            {
+              "functionName": "ready",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 30005
+            },
+            {
+              "functionName": "K",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 30367
+            }
+          ]
+        }
+      }
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/vodcdn/videos/encoder/1202412/1f259e3d28515ea5ad3f4db28f501f6e/720/index.m3u8",
+    "type": "xhr",
+    "size": 246,
+    "originalSize": 246,
+    "status": 200,
+    "headers": {
+      "accept-ranges": "bytes",
+      "access-control-allow-credentials": "true",
+      "access-control-allow-origin": "*",
+      "cdn-cache": "HIT from bdb5",
+      "content-length": "246",
+      "content-type": "application/vnd.apple.mpegurl",
+      "cross-origin-embedder-policy": "require-corp",
+      "cross-origin-opener-policy": "same-origin",
+      "cross-origin-resource-policy": "cross-origin",
+      "date": "Wed, 07 May 2025 03:26:37 GMT",
+      "etag": "\"674eed76-f6\"",
+      "last-modified": "Tue, 03 Dec 2024 11:37:26 GMT",
+      "myhost": "myt8",
+      "server": "nginx",
+      "set-cookie": "ueid=1f5d6276be459eac55eaef6146744a88; domain=vodcdn.ecerimg.com; path=/; expires=Fri, 31 Dec 9999 23:59:59 GMT"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [
+          {
+            "functionName": "_createXHR",
+            "scriptId": "19",
+            "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+            "lineNumber": 11,
+            "columnNumber": 48828
+          },
+          {
+            "functionName": "createXHR",
+            "scriptId": "19",
+            "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+            "lineNumber": 11,
+            "columnNumber": 46860
+          },
+          {
+            "functionName": "e",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 44271
+          },
+          {
+            "functionName": "i.media",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 39426
+          },
+          {
+            "functionName": "i.switchMedia_",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 13,
+            "columnNumber": 7841
+          },
+          {
+            "functionName": "",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 13,
+            "columnNumber": 13814
+          },
+          {
+            "functionName": "a.dispatcher.a.dispatcher",
+            "scriptId": "19",
+            "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+            "lineNumber": 11,
+            "columnNumber": 15293
+          },
+          {
+            "functionName": "trigger",
+            "scriptId": "19",
+            "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+            "lineNumber": 11,
+            "columnNumber": 16179
+          },
+          {
+            "functionName": "EventTarget.trigger",
+            "scriptId": "19",
+            "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+            "lineNumber": 11,
+            "columnNumber": 18111
+          },
+          {
+            "functionName": "i.setupInitialPlaylist",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 43386
+          },
+          {
+            "functionName": "",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 41817
+          },
+          {
+            "functionName": "",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 44888
+          },
+          {
+            "functionName": "",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 44897
+          },
+          {
+            "functionName": "o",
+            "scriptId": "19",
+            "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+            "lineNumber": 11,
+            "columnNumber": 47032
+          },
+          {
+            "functionName": "e",
+            "scriptId": "19",
+            "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+            "lineNumber": 11,
+            "columnNumber": 47610
+          }
+        ],
+        "parent": {
+          "description": "XMLHttpRequest.send",
+          "callFrames": [
+            {
+              "functionName": "_createXHR",
+              "scriptId": "19",
+              "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+              "lineNumber": 11,
+              "columnNumber": 48828
+            },
+            {
+              "functionName": "createXHR",
+              "scriptId": "19",
+              "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+              "lineNumber": 11,
+              "columnNumber": 46860
+            },
+            {
+              "functionName": "e",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 44271
+            },
+            {
+              "functionName": "i.start",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 41362
+            },
+            {
+              "functionName": "i.load",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 40697
+            },
+            {
+              "functionName": "t",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 13,
+              "columnNumber": 6542
+            },
+            {
+              "functionName": "i.src",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 13,
+              "columnNumber": 56315
+            },
+            {
+              "functionName": "handleSource",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 13,
+              "columnNumber": 68857
+            },
+            {
+              "functionName": "r.setSource",
+              "scriptId": "19",
+              "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+              "lineNumber": 11,
+              "columnNumber": 61708
+            },
+            {
+              "functionName": "e",
+              "scriptId": "19",
+              "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+              "lineNumber": 11,
+              "columnNumber": 109085
+            },
+            {
+              "functionName": "e.loadTech_",
+              "scriptId": "19",
+              "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+              "lineNumber": 11,
+              "columnNumber": 127021
+            },
+            {
+              "functionName": "e.src_",
+              "scriptId": "19",
+              "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+              "lineNumber": 11,
+              "columnNumber": 145860
+            },
+            {
+              "functionName": "",
+              "scriptId": "19",
+              "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+              "lineNumber": 11,
+              "columnNumber": 144969
+            },
+            {
+              "functionName": "setSourceHelper",
+              "scriptId": "19",
+              "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+              "lineNumber": 11,
+              "columnNumber": 63950
+            },
+            {
+              "functionName": "setSourceHelper",
+              "scriptId": "19",
+              "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+              "lineNumber": 11,
+              "columnNumber": 63957
+            },
+            {
+              "functionName": "",
+              "scriptId": "19",
+              "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+              "lineNumber": 11,
+              "columnNumber": 62299
+            },
+            {
+              "functionName": "",
+              "scriptId": "19",
+              "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+              "lineNumber": 11,
+              "columnNumber": 32022
+            }
+          ],
+          "parent": {
+            "description": "setTimeout",
+            "callFrames": [
+              {
+                "functionName": "e.setTimeout",
+                "scriptId": "19",
+                "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                "lineNumber": 11,
+                "columnNumber": 31948
+              },
+              {
+                "functionName": "setSource",
+                "scriptId": "19",
+                "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                "lineNumber": 11,
+                "columnNumber": 62270
+              },
+              {
+                "functionName": "e.handleSrc_",
+                "scriptId": "19",
+                "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                "lineNumber": 11,
+                "columnNumber": 144865
+              },
+              {
+                "functionName": "e.src",
+                "scriptId": "19",
+                "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                "lineNumber": 11,
+                "columnNumber": 145543
+              },
+              {
+                "functionName": "e",
+                "scriptId": "19",
+                "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                "lineNumber": 11,
+                "columnNumber": 65372
+              },
+              {
+                "functionName": "e.addChild",
+                "scriptId": "19",
+                "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                "lineNumber": 11,
+                "columnNumber": 28161
+              },
+              {
+                "functionName": "",
+                "scriptId": "19",
+                "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                "lineNumber": 11,
+                "columnNumber": 29745
+              },
+              {
+                "functionName": "e.initChildren",
+                "scriptId": "19",
+                "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                "lineNumber": 11,
+                "columnNumber": 29611
+              },
+              {
+                "functionName": "r",
+                "scriptId": "19",
+                "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                "lineNumber": 11,
+                "columnNumber": 120400
+              },
+              {
+                "functionName": "videojs",
+                "scriptId": "19",
+                "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                "lineNumber": 21,
+                "columnNumber": 10546
+              },
+              {
+                "functionName": "",
+                "scriptId": "23",
+                "url": "https://vodcdn.ecerimg.com/resource/player/ePlayer.js",
+                "lineNumber": 0,
+                "columnNumber": 9536
+              }
+            ],
+            "parent": {
+              "description": "Promise.then",
+              "callFrames": [
+                {
+                  "functionName": "t",
+                  "scriptId": "23",
+                  "url": "https://vodcdn.ecerimg.com/resource/player/ePlayer.js",
+                  "lineNumber": 0,
+                  "columnNumber": 9472
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "16",
+                  "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+                  "lineNumber": 0,
+                  "columnNumber": 42147
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/b-blower.com/photo/pt30465316-green_power_electric_motorcycle_new_design_electric_scooter_1000w_kits.jpg",
+    "type": "image",
+    "size": 76678,
+    "originalSize": 76678,
+    "status": 200,
+    "headers": {
+      "content-encoding": "gzip",
+      "content-type": "image/jpeg",
+      "date": "Wed, 07 May 2025 03:26:36 GMT",
+      "expires": "Wed, 28 May 2025 05:29:04 GMT",
+      "last-modified": "Mon, 06 Feb 2023 02:42:27 GMT",
+      "server": "nginx",
+      "vary": "Accept-Encoding",
+      "x-cache": "/test/b-blower.com/photo/pt30465316-green_power_electric_motorcycle_new_design_electric_scooter_1000w_kits.jpg|HIT"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [],
+        "parent": {
+          "description": "Image",
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 0,
+              "columnNumber": 30134
+            },
+            {
+              "functionName": "each",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 2880
+            },
+            {
+              "functionName": "each",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 845
+            },
+            {
+              "functionName": "f",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 0,
+              "columnNumber": 29743
+            },
+            {
+              "functionName": "delayLoading",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 0,
+              "columnNumber": 30539
+            },
+            {
+              "functionName": "",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 0,
+              "columnNumber": 30800
+            },
+            {
+              "functionName": "i",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 27448
+            },
+            {
+              "functionName": "fireWith",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 28212
+            },
+            {
+              "functionName": "ready",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 30005
+            },
+            {
+              "functionName": "K",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 30367
+            }
+          ]
+        }
+      }
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/vodcdn/videos/encoder/1202412/1f259e3d28515ea5ad3f4db28f501f6e/720/0000.ts",
+    "type": "xhr",
+    "size": 136488,
+    "originalSize": 136488,
+    "status": 200,
+    "headers": {
+      "accept-ranges": "bytes",
+      "access-control-allow-credentials": "true",
+      "access-control-allow-origin": "*",
+      "cdn-cache": "HIT from bdb5",
+      "content-length": "136488",
+      "content-type": "video/mp2t",
+      "cross-origin-embedder-policy": "require-corp",
+      "cross-origin-opener-policy": "same-origin",
+      "cross-origin-resource-policy": "cross-origin",
+      "date": "Wed, 07 May 2025 03:26:37 GMT",
+      "etag": "\"674eed76-21528\"",
+      "last-modified": "Tue, 03 Dec 2024 11:37:26 GMT",
+      "myhost": "myt9",
+      "server": "nginx",
+      "set-cookie": "ueid=b4666bac06f9ff9cfc9115ccd16c45a6; domain=vodcdn.ecerimg.com; path=/; expires=Fri, 31 Dec 9999 23:59:59 GMT"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [
+          {
+            "functionName": "_createXHR",
+            "scriptId": "19",
+            "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+            "lineNumber": 11,
+            "columnNumber": 48828
+          },
+          {
+            "functionName": "createXHR",
+            "scriptId": "19",
+            "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+            "lineNumber": 11,
+            "columnNumber": 46860
+          },
+          {
+            "functionName": "e",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 44271
+          },
+          {
+            "functionName": "xt",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 159389
+          },
+          {
+            "functionName": "i.updateTransmuxerAndRequestSegment_",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 195076
+          },
+          {
+            "functionName": "i.loadSegment_",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 194078
+          },
+          {
+            "functionName": "i.fillBuffer_",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 178546
+          },
+          {
+            "functionName": "i.monitorBufferTick_",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 178046
+          }
+        ],
+        "parent": {
+          "description": "setTimeout",
+          "callFrames": [
+            {
+              "functionName": "i.monitorBuffer_",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 177925
+            },
+            {
+              "functionName": "i.load",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 174199
+            },
+            {
+              "functionName": "i.load",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 13,
+              "columnNumber": 20714
+            },
+            {
+              "functionName": "i.setupFirstPlay",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 13,
+              "columnNumber": 22233
+            },
+            {
+              "functionName": "",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 13,
+              "columnNumber": 13169
+            },
+            {
+              "functionName": "a.dispatcher.a.dispatcher",
+              "scriptId": "19",
+              "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+              "lineNumber": 11,
+              "columnNumber": 15293
+            },
+            {
+              "functionName": "trigger",
+              "scriptId": "19",
+              "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+              "lineNumber": 11,
+              "columnNumber": 16179
+            },
+            {
+              "functionName": "EventTarget.trigger",
+              "scriptId": "19",
+              "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+              "lineNumber": 11,
+              "columnNumber": 18111
+            },
+            {
+              "functionName": "",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 39774
+            },
+            {
+              "functionName": "",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 44888
+            },
+            {
+              "functionName": "",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 44897
+            },
+            {
+              "functionName": "o",
+              "scriptId": "19",
+              "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+              "lineNumber": 11,
+              "columnNumber": 47032
+            },
+            {
+              "functionName": "e",
+              "scriptId": "19",
+              "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+              "lineNumber": 11,
+              "columnNumber": 47610
+            }
+          ],
+          "parent": {
+            "description": "XMLHttpRequest.send",
+            "callFrames": [
+              {
+                "functionName": "_createXHR",
+                "scriptId": "19",
+                "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                "lineNumber": 11,
+                "columnNumber": 48828
+              },
+              {
+                "functionName": "createXHR",
+                "scriptId": "19",
+                "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                "lineNumber": 11,
+                "columnNumber": 46860
+              },
+              {
+                "functionName": "e",
+                "scriptId": "22",
+                "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+                "lineNumber": 3,
+                "columnNumber": 44271
+              },
+              {
+                "functionName": "i.media",
+                "scriptId": "22",
+                "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+                "lineNumber": 3,
+                "columnNumber": 39426
+              },
+              {
+                "functionName": "i.switchMedia_",
+                "scriptId": "22",
+                "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+                "lineNumber": 13,
+                "columnNumber": 7841
+              },
+              {
+                "functionName": "",
+                "scriptId": "22",
+                "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+                "lineNumber": 13,
+                "columnNumber": 13814
+              },
+              {
+                "functionName": "a.dispatcher.a.dispatcher",
+                "scriptId": "19",
+                "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                "lineNumber": 11,
+                "columnNumber": 15293
+              },
+              {
+                "functionName": "trigger",
+                "scriptId": "19",
+                "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                "lineNumber": 11,
+                "columnNumber": 16179
+              },
+              {
+                "functionName": "EventTarget.trigger",
+                "scriptId": "19",
+                "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                "lineNumber": 11,
+                "columnNumber": 18111
+              },
+              {
+                "functionName": "i.setupInitialPlaylist",
+                "scriptId": "22",
+                "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+                "lineNumber": 3,
+                "columnNumber": 43386
+              },
+              {
+                "functionName": "",
+                "scriptId": "22",
+                "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+                "lineNumber": 3,
+                "columnNumber": 41817
+              },
+              {
+                "functionName": "",
+                "scriptId": "22",
+                "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+                "lineNumber": 3,
+                "columnNumber": 44888
+              },
+              {
+                "functionName": "",
+                "scriptId": "22",
+                "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+                "lineNumber": 3,
+                "columnNumber": 44897
+              },
+              {
+                "functionName": "o",
+                "scriptId": "19",
+                "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                "lineNumber": 11,
+                "columnNumber": 47032
+              },
+              {
+                "functionName": "e",
+                "scriptId": "19",
+                "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                "lineNumber": 11,
+                "columnNumber": 47610
+              }
+            ],
+            "parent": {
+              "description": "XMLHttpRequest.send",
+              "callFrames": [
+                {
+                  "functionName": "_createXHR",
+                  "scriptId": "19",
+                  "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                  "lineNumber": 11,
+                  "columnNumber": 48828
+                },
+                {
+                  "functionName": "createXHR",
+                  "scriptId": "19",
+                  "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                  "lineNumber": 11,
+                  "columnNumber": 46860
+                },
+                {
+                  "functionName": "e",
+                  "scriptId": "22",
+                  "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+                  "lineNumber": 3,
+                  "columnNumber": 44271
+                },
+                {
+                  "functionName": "i.start",
+                  "scriptId": "22",
+                  "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+                  "lineNumber": 3,
+                  "columnNumber": 41362
+                },
+                {
+                  "functionName": "i.load",
+                  "scriptId": "22",
+                  "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+                  "lineNumber": 3,
+                  "columnNumber": 40697
+                },
+                {
+                  "functionName": "t",
+                  "scriptId": "22",
+                  "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+                  "lineNumber": 13,
+                  "columnNumber": 6542
+                },
+                {
+                  "functionName": "i.src",
+                  "scriptId": "22",
+                  "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+                  "lineNumber": 13,
+                  "columnNumber": 56315
+                },
+                {
+                  "functionName": "handleSource",
+                  "scriptId": "22",
+                  "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+                  "lineNumber": 13,
+                  "columnNumber": 68857
+                },
+                {
+                  "functionName": "r.setSource",
+                  "scriptId": "19",
+                  "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                  "lineNumber": 11,
+                  "columnNumber": 61708
+                },
+                {
+                  "functionName": "e",
+                  "scriptId": "19",
+                  "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                  "lineNumber": 11,
+                  "columnNumber": 109085
+                },
+                {
+                  "functionName": "e.loadTech_",
+                  "scriptId": "19",
+                  "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                  "lineNumber": 11,
+                  "columnNumber": 127021
+                },
+                {
+                  "functionName": "e.src_",
+                  "scriptId": "19",
+                  "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                  "lineNumber": 11,
+                  "columnNumber": 145860
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "19",
+                  "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                  "lineNumber": 11,
+                  "columnNumber": 144969
+                },
+                {
+                  "functionName": "setSourceHelper",
+                  "scriptId": "19",
+                  "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                  "lineNumber": 11,
+                  "columnNumber": 63950
+                },
+                {
+                  "functionName": "setSourceHelper",
+                  "scriptId": "19",
+                  "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                  "lineNumber": 11,
+                  "columnNumber": 63957
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "19",
+                  "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                  "lineNumber": 11,
+                  "columnNumber": 62299
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "19",
+                  "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                  "lineNumber": 11,
+                  "columnNumber": 32022
+                }
+              ],
+              "parent": {
+                "description": "setTimeout",
+                "callFrames": [
+                  {
+                    "functionName": "e.setTimeout",
+                    "scriptId": "19",
+                    "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                    "lineNumber": 11,
+                    "columnNumber": 31948
+                  },
+                  {
+                    "functionName": "setSource",
+                    "scriptId": "19",
+                    "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                    "lineNumber": 11,
+                    "columnNumber": 62270
+                  },
+                  {
+                    "functionName": "e.handleSrc_",
+                    "scriptId": "19",
+                    "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                    "lineNumber": 11,
+                    "columnNumber": 144865
+                  },
+                  {
+                    "functionName": "e.src",
+                    "scriptId": "19",
+                    "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                    "lineNumber": 11,
+                    "columnNumber": 145543
+                  },
+                  {
+                    "functionName": "e",
+                    "scriptId": "19",
+                    "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                    "lineNumber": 11,
+                    "columnNumber": 65372
+                  },
+                  {
+                    "functionName": "e.addChild",
+                    "scriptId": "19",
+                    "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                    "lineNumber": 11,
+                    "columnNumber": 28161
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "19",
+                    "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                    "lineNumber": 11,
+                    "columnNumber": 29745
+                  },
+                  {
+                    "functionName": "e.initChildren",
+                    "scriptId": "19",
+                    "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                    "lineNumber": 11,
+                    "columnNumber": 29611
+                  },
+                  {
+                    "functionName": "r",
+                    "scriptId": "19",
+                    "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                    "lineNumber": 11,
+                    "columnNumber": 120400
+                  },
+                  {
+                    "functionName": "videojs",
+                    "scriptId": "19",
+                    "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+                    "lineNumber": 21,
+                    "columnNumber": 10546
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "23",
+                    "url": "https://vodcdn.ecerimg.com/resource/player/ePlayer.js",
+                    "lineNumber": 0,
+                    "columnNumber": 9536
+                  }
+                ],
+                "parent": {
+                  "description": "Promise.then",
+                  "callFrames": [
+                    {
+                      "functionName": "t",
+                      "scriptId": "23",
+                      "url": "https://vodcdn.ecerimg.com/resource/player/ePlayer.js",
+                      "lineNumber": 0,
+                      "columnNumber": 9472
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "16",
+                      "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+                      "lineNumber": 0,
+                      "columnNumber": 42147
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/b-blower.com/photo/cl144156296-shenzhen_uv_nail_lamp_co_ltd.jpg",
+    "type": "image",
+    "size": 119708,
+    "originalSize": 119708,
+    "status": 200,
+    "headers": {
+      "content-encoding": "gzip",
+      "content-type": "image/jpeg",
+      "date": "Wed, 07 May 2025 03:26:36 GMT",
+      "expires": "Thu, 05 Jun 2025 10:18:07 GMT",
+      "last-modified": "Mon, 06 Feb 2023 02:43:20 GMT",
+      "server": "nginx",
+      "vary": "Accept-Encoding",
+      "x-cache": "/test/b-blower.com/photo/cl144156296-shenzhen_uv_nail_lamp_co_ltd.jpg|HIT"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [],
+        "parent": {
+          "description": "Image",
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 0,
+              "columnNumber": 30134
+            },
+            {
+              "functionName": "each",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 2880
+            },
+            {
+              "functionName": "each",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 845
+            },
+            {
+              "functionName": "f",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 0,
+              "columnNumber": 29743
+            },
+            {
+              "functionName": "delayLoading",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 0,
+              "columnNumber": 30539
+            },
+            {
+              "functionName": "",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 0,
+              "columnNumber": 30800
+            },
+            {
+              "functionName": "i",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 27448
+            },
+            {
+              "functionName": "fireWith",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 28212
+            },
+            {
+              "functionName": "ready",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 30005
+            },
+            {
+              "functionName": "K",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 30367
+            }
+          ]
+        }
+      }
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/video/image/poster.jpg",
+    "type": "image",
+    "size": 552,
+    "originalSize": 552,
+    "status": 404,
+    "headers": {
+      "content-encoding": "gzip",
+      "content-type": "text/html",
+      "date": "Wed, 07 May 2025 03:26:37 GMT",
+      "server": "nginx",
+      "vary": "Accept-Encoding\nAccept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/b-blower.com/",
+      "lineNumber": 2838,
+      "columnNumber": 8
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": false
+  },
+  {
+    "url": "https://mao.ecer.com/test/b-blower.com/photo/cl144156300-shenzhen_uv_nail_lamp_co_ltd.jpg",
+    "type": "image",
+    "size": 199942,
+    "originalSize": 199942,
+    "status": 200,
+    "headers": {
+      "content-encoding": "gzip",
+      "content-type": "image/jpeg",
+      "date": "Wed, 07 May 2025 03:26:36 GMT",
+      "expires": "Thu, 05 Jun 2025 10:18:07 GMT",
+      "last-modified": "Mon, 06 Feb 2023 02:43:20 GMT",
+      "server": "nginx",
+      "vary": "Accept-Encoding",
+      "x-cache": "/test/b-blower.com/photo/cl144156300-shenzhen_uv_nail_lamp_co_ltd.jpg|HIT"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [],
+        "parent": {
+          "description": "Image",
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 0,
+              "columnNumber": 30134
+            },
+            {
+              "functionName": "each",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 2880
+            },
+            {
+              "functionName": "each",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 845
+            },
+            {
+              "functionName": "f",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 0,
+              "columnNumber": 29743
+            },
+            {
+              "functionName": "delayLoading",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 0,
+              "columnNumber": 30539
+            },
+            {
+              "functionName": "",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 0,
+              "columnNumber": 30800
+            },
+            {
+              "functionName": "i",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 27448
+            },
+            {
+              "functionName": "fireWith",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 28212
+            },
+            {
+              "functionName": "ready",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 30005
+            },
+            {
+              "functionName": "K",
+              "scriptId": "10",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 30367
+            }
+          ]
+        }
+      }
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/video/video.min.js?v=20240528",
+    "type": "script",
+    "size": 173721,
+    "originalSize": 173721,
+    "status": 200,
+    "headers": {
+      "cache-control": "max-age=86400",
+      "content-encoding": "gzip",
+      "content-type": "application/x-javascript",
+      "date": "Wed, 07 May 2025 03:26:36 GMT",
+      "etag": "W/\"67ee7f2e-2a699\"",
+      "expires": "Thu, 08 May 2025 03:26:36 GMT",
+      "last-modified": "Thu, 03 Apr 2025 12:29:34 GMT",
+      "myhost": "myt8",
+      "server": "nginx",
+      "vary": "Accept-Encoding\nAccept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [
+          {
+            "functionName": "window.loadScript",
+            "scriptId": "16",
+            "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+            "lineNumber": 0,
+            "columnNumber": 54607
+          },
+          {
+            "functionName": "",
+            "scriptId": "16",
+            "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+            "lineNumber": 34,
+            "columnNumber": 1136
+          }
+        ]
+      }
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/vodcdn/videos/encoder/1202412/1f259e3d28515ea5ad3f4db28f501f6e/720/0001.ts",
+    "type": "xhr",
+    "size": 109604,
+    "originalSize": 109604,
+    "status": 200,
+    "headers": {
+      "accept-ranges": "bytes",
+      "access-control-allow-credentials": "true",
+      "access-control-allow-origin": "*",
+      "cdn-cache": "HIT from bdb5",
+      "content-length": "109604",
+      "content-type": "video/mp2t",
+      "cross-origin-embedder-policy": "require-corp",
+      "cross-origin-opener-policy": "same-origin",
+      "cross-origin-resource-policy": "cross-origin",
+      "date": "Wed, 07 May 2025 03:26:37 GMT",
+      "etag": "\"674eed76-1ac24\"",
+      "last-modified": "Tue, 03 Dec 2024 11:37:26 GMT",
+      "myhost": "myt8",
+      "server": "nginx",
+      "set-cookie": "ueid=bf57acdd2f8d8201fd000abecd988123; domain=vodcdn.ecerimg.com; path=/; expires=Fri, 31 Dec 9999 23:59:59 GMT"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [
+          {
+            "functionName": "_createXHR",
+            "scriptId": "19",
+            "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+            "lineNumber": 11,
+            "columnNumber": 48828
+          },
+          {
+            "functionName": "createXHR",
+            "scriptId": "19",
+            "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+            "lineNumber": 11,
+            "columnNumber": 46860
+          },
+          {
+            "functionName": "e",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 44271
+          },
+          {
+            "functionName": "xt",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 159389
+          },
+          {
+            "functionName": "i.updateTransmuxerAndRequestSegment_",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 195076
+          },
+          {
+            "functionName": "i.loadSegment_",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 194078
+          },
+          {
+            "functionName": "i.fillBuffer_",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 178546
+          },
+          {
+            "functionName": "i.monitorBufferTick_",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 178046
+          }
+        ],
+        "parent": {
+          "description": "setTimeout",
+          "callFrames": [
+            {
+              "functionName": "i.monitorBuffer_",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 177925
+            },
+            {
+              "functionName": "i.handleAppendsDone_",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 205775
+            },
+            {
+              "functionName": "i.checkAppendsDone_",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 200592
+            },
+            {
+              "functionName": "",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 208541
+            },
+            {
+              "functionName": "e",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 207032
+            },
+            {
+              "functionName": "",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 210057
+            }
+          ]
+        }
+      }
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/video/videojs-http-streaming.js?v=20240528",
+    "type": "script",
+    "size": 308862,
+    "originalSize": 308862,
+    "status": 200,
+    "headers": {
+      "cache-control": "max-age=86400",
+      "content-encoding": "gzip",
+      "content-type": "application/x-javascript",
+      "date": "Wed, 07 May 2025 03:26:37 GMT",
+      "etag": "W/\"67ee7f2e-4b67e\"",
+      "expires": "Thu, 08 May 2025 03:26:37 GMT",
+      "last-modified": "Thu, 03 Apr 2025 12:29:34 GMT",
+      "myhost": "myt9",
+      "server": "nginx",
+      "vary": "Accept-Encoding\nAccept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [
+          {
+            "functionName": "window.loadScript",
+            "scriptId": "16",
+            "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+            "lineNumber": 0,
+            "columnNumber": 54607
+          },
+          {
+            "functionName": "",
+            "scriptId": "16",
+            "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+            "lineNumber": 34,
+            "columnNumber": 1273
+          },
+          {
+            "functionName": "script.onload.script.onreadystatechange",
+            "scriptId": "16",
+            "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+            "lineNumber": 0,
+            "columnNumber": 54345
+          }
+        ],
+        "parent": {
+          "description": "script",
+          "callFrames": [
+            {
+              "functionName": "window.loadScript",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 0,
+              "columnNumber": 54118
+            },
+            {
+              "functionName": "",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 34,
+              "columnNumber": 1136
+            }
+          ]
+        }
+      }
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/video/ePlayer.js?v=20240528",
+    "type": "script",
+    "size": 12107,
+    "originalSize": 12107,
+    "status": 200,
+    "headers": {
+      "cache-control": "max-age=86400",
+      "content-encoding": "gzip",
+      "content-type": "application/x-javascript",
+      "date": "Wed, 07 May 2025 03:26:37 GMT",
+      "etag": "W/\"67f64bfa-2f4b\"",
+      "expires": "Thu, 08 May 2025 03:26:37 GMT",
+      "last-modified": "Wed, 09 Apr 2025 10:29:14 GMT",
+      "myhost": "myt9",
+      "server": "nginx",
+      "vary": "Accept-Encoding\nAccept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [
+          {
+            "functionName": "window.loadScript",
+            "scriptId": "16",
+            "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+            "lineNumber": 0,
+            "columnNumber": 54607
+          },
+          {
+            "functionName": "",
+            "scriptId": "16",
+            "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+            "lineNumber": 34,
+            "columnNumber": 1423
+          },
+          {
+            "functionName": "script.onload.script.onreadystatechange",
+            "scriptId": "16",
+            "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+            "lineNumber": 0,
+            "columnNumber": 54345
+          }
+        ],
+        "parent": {
+          "description": "script",
+          "callFrames": [
+            {
+              "functionName": "window.loadScript",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 0,
+              "columnNumber": 54118
+            },
+            {
+              "functionName": "",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 34,
+              "columnNumber": 1273
+            },
+            {
+              "functionName": "script.onload.script.onreadystatechange",
+              "scriptId": "16",
+              "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+              "lineNumber": 0,
+              "columnNumber": 54345
+            }
+          ],
+          "parent": {
+            "description": "script",
+            "callFrames": [
+              {
+                "functionName": "window.loadScript",
+                "scriptId": "16",
+                "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+                "lineNumber": 0,
+                "columnNumber": 54118
+              },
+              {
+                "functionName": "",
+                "scriptId": "16",
+                "url": "https://mao.ecer.com/photo/b-blower/sitetpl_test/style/common.js?ver=1746529251",
+                "lineNumber": 34,
+                "columnNumber": 1136
+              }
+            ]
+          }
+        }
+      }
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/vodcdn/videos/encoder/1202412/1f259e3d28515ea5ad3f4db28f501f6e/720/0002.ts",
+    "type": "xhr",
+    "size": 242332,
+    "originalSize": 242332,
+    "status": 200,
+    "headers": {
+      "accept-ranges": "bytes",
+      "access-control-allow-credentials": "true",
+      "access-control-allow-origin": "*",
+      "cdn-cache": "HIT from bdb5",
+      "content-length": "242332",
+      "content-type": "video/mp2t",
+      "cross-origin-embedder-policy": "require-corp",
+      "cross-origin-opener-policy": "same-origin",
+      "cross-origin-resource-policy": "cross-origin",
+      "date": "Wed, 07 May 2025 03:26:37 GMT",
+      "etag": "\"674eed6f-3b29c\"",
+      "last-modified": "Tue, 03 Dec 2024 11:37:19 GMT",
+      "myhost": "myt8",
+      "server": "nginx",
+      "set-cookie": "ueid=3e3dd3b996c4206cf81099a48216e44d; domain=vodcdn.ecerimg.com; path=/; expires=Fri, 31 Dec 9999 23:59:59 GMT"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [
+          {
+            "functionName": "_createXHR",
+            "scriptId": "19",
+            "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+            "lineNumber": 11,
+            "columnNumber": 48828
+          },
+          {
+            "functionName": "createXHR",
+            "scriptId": "19",
+            "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+            "lineNumber": 11,
+            "columnNumber": 46860
+          },
+          {
+            "functionName": "e",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 44271
+          },
+          {
+            "functionName": "xt",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 159389
+          },
+          {
+            "functionName": "i.updateTransmuxerAndRequestSegment_",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 195076
+          },
+          {
+            "functionName": "i.loadSegment_",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 194078
+          },
+          {
+            "functionName": "i.fillBuffer_",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 178546
+          },
+          {
+            "functionName": "i.monitorBufferTick_",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 178046
+          }
+        ],
+        "parent": {
+          "description": "setTimeout",
+          "callFrames": [
+            {
+              "functionName": "i.monitorBuffer_",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 177925
+            },
+            {
+              "functionName": "i.handleAppendsDone_",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 205775
+            },
+            {
+              "functionName": "i.checkAppendsDone_",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 200592
+            },
+            {
+              "functionName": "",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 208541
+            },
+            {
+              "functionName": "e",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 207032
+            },
+            {
+              "functionName": "ci",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 209889
+            },
+            {
+              "functionName": "i.audioQueueCallback",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 216962
+            },
+            {
+              "functionName": "i.waitForAppendsToComplete_",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 200403
+            },
+            {
+              "functionName": "i.segmentRequestFinished_",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 198537
+            },
+            {
+              "functionName": "onDone",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 153797
+            },
+            {
+              "functionName": "t.currentTransmux.i.data.type._.transmuxedData",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 142043
+            },
+            {
+              "functionName": "t.onmessage",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 142049
+            }
+          ],
+          "parentId": {
+            "id": "22",
+            "debuggerId": "-3927189764863447542.6162079485584589804"
+          }
+        }
+      }
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/images/ctm_icon_vrshow.png",
+    "type": "image",
+    "size": 2614,
+    "originalSize": 2614,
+    "status": 200,
+    "headers": {
+      "cache-control": "max-age=2592000",
+      "content-encoding": "gzip",
+      "content-type": "image/png",
+      "date": "Wed, 07 May 2025 03:26:38 GMT",
+      "etag": "W/\"6541b9cc-a36\"",
+      "expires": "Fri, 06 Jun 2025 03:26:38 GMT",
+      "last-modified": "Wed, 01 Nov 2023 02:37:00 GMT",
+      "myhost": "myt8",
+      "server": "nginx",
+      "vary": "Accept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "other"
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/favicon.ico",
+    "type": "other",
+    "size": 1150,
+    "originalSize": 1150,
+    "status": 200,
+    "headers": {
+      "accept-ranges": "bytes",
+      "content-length": "1150",
+      "content-type": "image/x-icon",
+      "date": "Wed, 07 May 2025 03:26:38 GMT",
+      "etag": "\"565e96ea-47e\"",
+      "last-modified": "Wed, 02 Dec 2015 06:59:54 GMT",
+      "myhost": "myt9",
+      "server": "nginx"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "other"
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://vr.ecerimg.com/data/71/59/b-blower/vr/cover_thumb.jpg",
+    "type": "image",
+    "size": 6322,
+    "originalSize": 6322,
+    "status": 200,
+    "headers": {
+      "accept-ranges": "bytes",
+      "access-control-allow-credentials": "true",
+      "access-control-allow-headers": "X-Requested-With\nX-Requested-With, Content-Type",
+      "access-control-allow-methods": "GET,POST,OPTIONS\nOPTIONS, POST, GET",
+      "access-control-allow-origin": "*\n*",
+      "cache-control": "max-age=2592000",
+      "content-encoding": "gzip",
+      "content-type": "image/jpeg",
+      "date": "Wed, 07 May 2025 03:26:38 GMT",
+      "etag": "W/\"63e06940-18b2\"",
+      "expires": "Fri, 06 Jun 2025 03:26:38 GMT",
+      "last-modified": "Mon, 06 Feb 2023 02:43:12 GMT",
+      "server": "nginx",
+      "vary": "Accept-Encoding\nAccept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "other"
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/vodcdn/videos/encoder/1202412/1f259e3d28515ea5ad3f4db28f501f6e/720/0003.ts",
+    "type": "xhr",
+    "size": 269216,
+    "originalSize": 269216,
+    "status": 200,
+    "headers": {
+      "accept-ranges": "bytes",
+      "access-control-allow-credentials": "true",
+      "access-control-allow-origin": "*",
+      "cdn-cache": "HIT from bdb5",
+      "content-length": "269216",
+      "content-type": "video/mp2t",
+      "cross-origin-embedder-policy": "require-corp",
+      "cross-origin-opener-policy": "same-origin",
+      "cross-origin-resource-policy": "cross-origin",
+      "date": "Wed, 07 May 2025 03:26:38 GMT",
+      "etag": "\"674eed71-41ba0\"",
+      "last-modified": "Tue, 03 Dec 2024 11:37:21 GMT",
+      "myhost": "myt8",
+      "server": "nginx",
+      "set-cookie": "ueid=103118c1f8085f83a768520ee1292981; domain=vodcdn.ecerimg.com; path=/; expires=Fri, 31 Dec 9999 23:59:59 GMT"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [
+          {
+            "functionName": "_createXHR",
+            "scriptId": "19",
+            "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+            "lineNumber": 11,
+            "columnNumber": 48828
+          },
+          {
+            "functionName": "createXHR",
+            "scriptId": "19",
+            "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+            "lineNumber": 11,
+            "columnNumber": 46860
+          },
+          {
+            "functionName": "e",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 44271
+          },
+          {
+            "functionName": "xt",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 159389
+          },
+          {
+            "functionName": "i.updateTransmuxerAndRequestSegment_",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 195076
+          },
+          {
+            "functionName": "i.loadSegment_",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 194078
+          },
+          {
+            "functionName": "i.fillBuffer_",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 178546
+          },
+          {
+            "functionName": "i.monitorBufferTick_",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 178046
+          }
+        ],
+        "parent": {
+          "description": "setTimeout",
+          "callFrames": [
+            {
+              "functionName": "i.monitorBuffer_",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 177925
+            },
+            {
+              "functionName": "i.handleAppendsDone_",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 205775
+            },
+            {
+              "functionName": "i.checkAppendsDone_",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 200592
+            },
+            {
+              "functionName": "",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 208541
+            },
+            {
+              "functionName": "e",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 207032
+            },
+            {
+              "functionName": "",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 210057
+            }
+          ]
+        }
+      }
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/vodcdn/videos/encoder/1202412/1f259e3d28515ea5ad3f4db28f501f6e/720/0004.ts",
+    "type": "xhr",
+    "size": 135172,
+    "originalSize": 135172,
+    "status": 200,
+    "headers": {
+      "accept-ranges": "bytes",
+      "access-control-allow-credentials": "true",
+      "access-control-allow-origin": "*",
+      "cdn-cache": "HIT from bdb5",
+      "content-length": "135172",
+      "content-type": "video/mp2t",
+      "cross-origin-embedder-policy": "require-corp",
+      "cross-origin-opener-policy": "same-origin",
+      "cross-origin-resource-policy": "cross-origin",
+      "date": "Wed, 07 May 2025 03:26:38 GMT",
+      "etag": "\"674eed72-21004\"",
+      "last-modified": "Tue, 03 Dec 2024 11:37:22 GMT",
+      "myhost": "myt9",
+      "server": "nginx",
+      "set-cookie": "ueid=67ba32c771633e4a6c8b72f8122786e0; domain=vodcdn.ecerimg.com; path=/; expires=Fri, 31 Dec 9999 23:59:59 GMT"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [
+          {
+            "functionName": "_createXHR",
+            "scriptId": "19",
+            "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+            "lineNumber": 11,
+            "columnNumber": 48828
+          },
+          {
+            "functionName": "createXHR",
+            "scriptId": "19",
+            "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+            "lineNumber": 11,
+            "columnNumber": 46860
+          },
+          {
+            "functionName": "e",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 44271
+          },
+          {
+            "functionName": "xt",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 159389
+          },
+          {
+            "functionName": "i.updateTransmuxerAndRequestSegment_",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 195076
+          },
+          {
+            "functionName": "i.loadSegment_",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 194078
+          },
+          {
+            "functionName": "i.fillBuffer_",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 178546
+          },
+          {
+            "functionName": "i.monitorBufferTick_",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 178046
+          }
+        ],
+        "parent": {
+          "description": "setTimeout",
+          "callFrames": [
+            {
+              "functionName": "i.monitorBuffer_",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 177925
+            },
+            {
+              "functionName": "i.handleAppendsDone_",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 205775
+            },
+            {
+              "functionName": "i.checkAppendsDone_",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 200592
+            },
+            {
+              "functionName": "",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 208541
+            },
+            {
+              "functionName": "e",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 207032
+            },
+            {
+              "functionName": "",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 210057
+            }
+          ]
+        }
+      }
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/vodcdn/videos/encoder/1202412/1f259e3d28515ea5ad3f4db28f501f6e/720/0005.ts",
+    "type": "xhr",
+    "size": 300612,
+    "originalSize": 300612,
+    "status": 200,
+    "headers": {
+      "accept-ranges": "bytes",
+      "access-control-allow-credentials": "true",
+      "access-control-allow-origin": "*",
+      "cdn-cache": "HIT from bdb5",
+      "content-length": "300612",
+      "content-type": "video/mp2t",
+      "cross-origin-embedder-policy": "require-corp",
+      "cross-origin-opener-policy": "same-origin",
+      "cross-origin-resource-policy": "cross-origin",
+      "date": "Wed, 07 May 2025 03:26:38 GMT",
+      "etag": "\"674eed75-49644\"",
+      "last-modified": "Tue, 03 Dec 2024 11:37:25 GMT",
+      "myhost": "myt8",
+      "server": "nginx",
+      "set-cookie": "ueid=c16446f51cca780c296f596f05e6b09f; domain=vodcdn.ecerimg.com; path=/; expires=Fri, 31 Dec 9999 23:59:59 GMT"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [
+          {
+            "functionName": "_createXHR",
+            "scriptId": "19",
+            "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+            "lineNumber": 11,
+            "columnNumber": 48828
+          },
+          {
+            "functionName": "createXHR",
+            "scriptId": "19",
+            "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+            "lineNumber": 11,
+            "columnNumber": 46860
+          },
+          {
+            "functionName": "e",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 44271
+          },
+          {
+            "functionName": "xt",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 159389
+          },
+          {
+            "functionName": "i.updateTransmuxerAndRequestSegment_",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 195076
+          },
+          {
+            "functionName": "i.loadSegment_",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 194078
+          },
+          {
+            "functionName": "i.fillBuffer_",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 178546
+          },
+          {
+            "functionName": "i.monitorBufferTick_",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 178046
+          }
+        ],
+        "parent": {
+          "description": "setTimeout",
+          "callFrames": [
+            {
+              "functionName": "i.monitorBuffer_",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 177925
+            },
+            {
+              "functionName": "i.handleAppendsDone_",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 205775
+            },
+            {
+              "functionName": "i.checkAppendsDone_",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 200592
+            },
+            {
+              "functionName": "",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 208541
+            },
+            {
+              "functionName": "e",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 207032
+            },
+            {
+              "functionName": "",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 210057
+            }
+          ]
+        }
+      }
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/vodcdn/videos/encoder/1202412/1f259e3d28515ea5ad3f4db28f501f6e/720/0006.ts",
+    "type": "xhr",
+    "size": 113364,
+    "originalSize": 113364,
+    "status": 200,
+    "headers": {
+      "accept-ranges": "bytes",
+      "access-control-allow-credentials": "true",
+      "access-control-allow-origin": "*",
+      "cdn-cache": "HIT from bdb5",
+      "content-length": "113364",
+      "content-type": "video/mp2t",
+      "cross-origin-embedder-policy": "require-corp",
+      "cross-origin-opener-policy": "same-origin",
+      "cross-origin-resource-policy": "cross-origin",
+      "date": "Wed, 07 May 2025 03:26:38 GMT",
+      "etag": "\"674eed75-1bad4\"",
+      "last-modified": "Tue, 03 Dec 2024 11:37:25 GMT",
+      "myhost": "myt9",
+      "server": "nginx",
+      "set-cookie": "ueid=6450a35ddeb1cc0c541c077921f5849b; domain=vodcdn.ecerimg.com; path=/; expires=Fri, 31 Dec 9999 23:59:59 GMT"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [
+          {
+            "functionName": "_createXHR",
+            "scriptId": "19",
+            "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+            "lineNumber": 11,
+            "columnNumber": 48828
+          },
+          {
+            "functionName": "createXHR",
+            "scriptId": "19",
+            "url": "https://vodcdn.ecerimg.com/resource/player/video.min.js",
+            "lineNumber": 11,
+            "columnNumber": 46860
+          },
+          {
+            "functionName": "e",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 44271
+          },
+          {
+            "functionName": "xt",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 159389
+          },
+          {
+            "functionName": "i.updateTransmuxerAndRequestSegment_",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 195076
+          },
+          {
+            "functionName": "i.loadSegment_",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 194078
+          },
+          {
+            "functionName": "i.fillBuffer_",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 178546
+          },
+          {
+            "functionName": "i.monitorBufferTick_",
+            "scriptId": "22",
+            "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+            "lineNumber": 3,
+            "columnNumber": 178046
+          }
+        ],
+        "parent": {
+          "description": "setTimeout",
+          "callFrames": [
+            {
+              "functionName": "i.monitorBuffer_",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 177925
+            },
+            {
+              "functionName": "i.handleAppendsDone_",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 205775
+            },
+            {
+              "functionName": "i.checkAppendsDone_",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 200592
+            },
+            {
+              "functionName": "",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 208541
+            },
+            {
+              "functionName": "e",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 207032
+            },
+            {
+              "functionName": "",
+              "scriptId": "22",
+              "url": "https://vodcdn.ecerimg.com/resource/player/videojs-http-streaming.js",
+              "lineNumber": 3,
+              "columnNumber": 210057
+            }
+          ]
+        }
+      }
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/b-blower.com/photo/pc30464340-48v_1500w_fat_tire_electric_bike_kit_with_rims_electric_bike_kit.jpg",
+    "type": "image",
+    "size": 58716,
+    "originalSize": 58716,
+    "status": 200,
+    "headers": {
+      "content-encoding": "gzip",
+      "content-type": "image/jpeg",
+      "date": "Wed, 07 May 2025 03:26:44 GMT",
+      "expires": "Fri, 06 Jun 2025 01:07:32 GMT",
+      "last-modified": "Mon, 06 Feb 2023 02:42:15 GMT",
+      "server": "nginx",
+      "vary": "Accept-Encoding",
+      "x-cache": "/test/b-blower.com/photo/pc30464340-48v_1500w_fat_tire_electric_bike_kit_with_rims_electric_bike_kit.jpg|HIT"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [],
+        "parent": {
+          "description": "Image",
+          "callFrames": [
+            {
+              "functionName": "initProduct",
+              "scriptId": "12",
+              "url": "https://mao.ecer.com/test/b-blower.com/",
+              "lineNumber": 489,
+              "columnNumber": 41
+            },
+            {
+              "functionName": "creatDialog",
+              "scriptId": "12",
+              "url": "https://mao.ecer.com/test/b-blower.com/",
+              "lineNumber": 857,
+              "columnNumber": 4
+            },
+            {
+              "functionName": "",
+              "scriptId": "12",
+              "url": "https://mao.ecer.com/test/b-blower.com/",
+              "lineNumber": 164,
+              "columnNumber": 16
+            }
+          ],
+          "parent": {
+            "description": "setTimeout",
+            "callFrames": [
+              {
+                "functionName": "window.onload",
+                "scriptId": "12",
+                "url": "https://mao.ecer.com/test/b-blower.com/",
+                "lineNumber": 162,
+                "columnNumber": 8
+              }
+            ]
+          }
+        }
+      }
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  }
+]

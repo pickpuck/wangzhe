@@ -1,0 +1,1404 @@
+[
+  {
+    "url": "https://mao.ecer.com/test/benchtesting.com/",
+    "type": "document",
+    "size": 176008,
+    "originalSize": 176008,
+    "status": 200,
+    "headers": {
+      "content-encoding": "gzip",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Fri, 09 May 2025 03:27:46 GMT",
+      "myhost": "myt-test",
+      "server": "openresty",
+      "set-cookie": "150h=10; expires=Sat, 10-May-2025 03:27:45 GMT; Max-Age=86400; path=/\n150h=1; expires=Sat, 10-May-2025 03:27:45 GMT; Max-Age=86400; path=/\n150h=2; expires=Sat, 10-May-2025 03:27:45 GMT; Max-Age=86400; path=/\n150h=3; expires=Sat, 10-May-2025 03:27:45 GMT; Max-Age=86400; path=/\n150h=5; expires=Sat, 10-May-2025 03:27:45 GMT; Max-Age=86400; path=/\n150h=2; expires=Sat, 10-May-2025 03:27:45 GMT; Max-Age=86400; path=/\n150h=4; expires=Sat, 10-May-2025 03:27:46 GMT; Max-Age=86400; path=/\n150h=9; expires=Sat, 10-May-2025 03:27:46 GMT; Max-Age=86400; path=/\n150h=3; expires=Sat, 10-May-2025 03:27:46 GMT; Max-Age=86400; path=/\n150h=4; expires=Sat, 10-May-2025 03:27:46 GMT; Max-Age=86400; path=/\n150h=10; expires=Sat, 10-May-2025 03:27:46 GMT; Max-Age=86400; path=/\n150h=1; expires=Sat, 10-May-2025 03:27:46 GMT; Max-Age=86400; path=/\n150h=6; expires=Sat, 10-May-2025 03:27:46 GMT; Max-Age=86400; path=/\n150h=7; expires=Sat, 10-May-2025 03:27:46 GMT; Max-Age=86400; path=/",
+      "vary": "Accept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "other"
+    },
+    "redirectChain": [],
+    "isNavigation": true,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/js/guidefirstcommon.css",
+    "type": "stylesheet",
+    "size": 7317,
+    "originalSize": 7317,
+    "status": 200,
+    "headers": {
+      "cache-control": "max-age=86400",
+      "content-encoding": "gzip",
+      "content-type": "text/css",
+      "date": "Fri, 09 May 2025 03:27:46 GMT",
+      "etag": "W/\"66e2904a-1c95\"",
+      "expires": "Sat, 10 May 2025 03:27:46 GMT",
+      "last-modified": "Thu, 12 Sep 2024 06:55:06 GMT",
+      "myhost": "myt-test",
+      "server": "openresty",
+      "vary": "Accept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/benchtesting.com/",
+      "lineNumber": 6,
+      "columnNumber": 82
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/photo/benchtesting/sitetpl_test/style/commonV2.css?ver=1746527515",
+    "type": "stylesheet",
+    "size": 513970,
+    "originalSize": 513970,
+    "status": 200,
+    "headers": {
+      "content-encoding": "gzip",
+      "content-type": "text/css",
+      "date": "Fri, 09 May 2025 03:27:46 GMT",
+      "etag": "W/\"67e20d84-7d7b2\"",
+      "last-modified": "Tue, 25 Mar 2025 01:57:24 GMT",
+      "myhost": "myt-test",
+      "server": "openresty",
+      "vary": "Accept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/benchtesting.com/",
+      "lineNumber": 56,
+      "columnNumber": 90
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/benchtesting.com/logo.gif",
+    "type": "image",
+    "size": 4755,
+    "originalSize": 4755,
+    "status": 200,
+    "headers": {
+      "content-encoding": "gzip",
+      "content-type": "image/gif",
+      "date": "Fri, 09 May 2025 03:27:46 GMT",
+      "expires": "Sun, 08 Jun 2025 03:27:46 GMT",
+      "last-modified": "Wed, 15 Nov 2023 08:48:14 GMT",
+      "myhost": "myt-test",
+      "server": "openresty",
+      "vary": "Accept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/benchtesting.com/",
+      "lineNumber": 61,
+      "columnNumber": 76
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/js/guidefirstcommon.js",
+    "type": "script",
+    "size": 10362,
+    "originalSize": 10362,
+    "status": 200,
+    "headers": {
+      "cache-control": "max-age=86400",
+      "content-encoding": "gzip",
+      "content-type": "application/x-javascript",
+      "date": "Fri, 09 May 2025 03:27:46 GMT",
+      "etag": "W/\"66e2904b-287a\"",
+      "expires": "Sat, 10 May 2025 03:27:46 GMT",
+      "last-modified": "Thu, 12 Sep 2024 06:55:07 GMT",
+      "myhost": "myt-test",
+      "server": "openresty",
+      "vary": "Accept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/benchtesting.com/",
+      "lineNumber": 17,
+      "columnNumber": 66
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/images/close.png",
+    "type": "image",
+    "size": 382,
+    "originalSize": 382,
+    "status": 200,
+    "headers": {
+      "accept-ranges": "bytes",
+      "cache-control": "max-age=2592000",
+      "content-length": "382",
+      "content-type": "image/png",
+      "date": "Fri, 09 May 2025 03:27:46 GMT",
+      "etag": "\"6541b9cc-17e\"",
+      "expires": "Sun, 08 Jun 2025 03:27:46 GMT",
+      "last-modified": "Wed, 01 Nov 2023 02:37:00 GMT",
+      "myhost": "myt-test",
+      "server": "openresty"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/benchtesting.com/",
+      "lineNumber": 938,
+      "columnNumber": 91
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/images/error.png",
+    "type": "image",
+    "size": 771,
+    "originalSize": 771,
+    "status": 200,
+    "headers": {
+      "accept-ranges": "bytes",
+      "cache-control": "max-age=2592000",
+      "content-length": "771",
+      "content-type": "image/png",
+      "date": "Fri, 09 May 2025 03:27:46 GMT",
+      "etag": "\"6541b9cb-303\"",
+      "expires": "Sun, 08 Jun 2025 03:27:46 GMT",
+      "last-modified": "Wed, 01 Nov 2023 02:36:59 GMT",
+      "myhost": "myt-test",
+      "server": "openresty"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/benchtesting.com/",
+      "lineNumber": 948,
+      "columnNumber": 128
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+    "type": "script",
+    "size": 97163,
+    "originalSize": 97163,
+    "status": 200,
+    "headers": {
+      "cache-control": "max-age=86400",
+      "content-encoding": "gzip",
+      "content-type": "application/x-javascript",
+      "date": "Fri, 09 May 2025 03:27:46 GMT",
+      "etag": "W/\"6541b9cd-17b8b\"",
+      "expires": "Sat, 10 May 2025 03:27:46 GMT",
+      "last-modified": "Wed, 01 Nov 2023 02:37:01 GMT",
+      "myhost": "myt-test",
+      "server": "openresty",
+      "vary": "Accept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/benchtesting.com/",
+      "lineNumber": 2605,
+      "columnNumber": 66
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/images/load_icon.gif",
+    "type": "image",
+    "size": 3132,
+    "originalSize": 3132,
+    "status": 200,
+    "headers": {
+      "cache-control": "max-age=2592000",
+      "content-encoding": "gzip",
+      "content-type": "image/gif",
+      "date": "Fri, 09 May 2025 03:27:46 GMT",
+      "etag": "W/\"6541b9a5-c3c\"",
+      "expires": "Sun, 08 Jun 2025 03:27:46 GMT",
+      "last-modified": "Wed, 01 Nov 2023 02:36:21 GMT",
+      "myhost": "myt-test",
+      "server": "openresty",
+      "vary": "Accept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/benchtesting.com/",
+      "lineNumber": 1562,
+      "columnNumber": 203
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/images/p_99715/99718_index_icon_1.png",
+    "type": "image",
+    "size": 769,
+    "originalSize": 769,
+    "status": 200,
+    "headers": {
+      "accept-ranges": "bytes",
+      "cache-control": "max-age=2592000",
+      "content-length": "769",
+      "content-type": "image/png",
+      "date": "Fri, 09 May 2025 03:27:46 GMT",
+      "etag": "\"67860c30-301\"",
+      "expires": "Sun, 08 Jun 2025 03:27:46 GMT",
+      "last-modified": "Tue, 14 Jan 2025 07:03:12 GMT",
+      "myhost": "myt-test",
+      "server": "openresty"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/benchtesting.com/",
+      "lineNumber": 1951,
+      "columnNumber": 95
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/images/p_99715/99718_index_icon_2.png",
+    "type": "image",
+    "size": 684,
+    "originalSize": 684,
+    "status": 200,
+    "headers": {
+      "accept-ranges": "bytes",
+      "cache-control": "max-age=2592000",
+      "content-length": "684",
+      "content-type": "image/png",
+      "date": "Fri, 09 May 2025 03:27:46 GMT",
+      "etag": "\"67860c30-2ac\"",
+      "expires": "Sun, 08 Jun 2025 03:27:46 GMT",
+      "last-modified": "Tue, 14 Jan 2025 07:03:12 GMT",
+      "myhost": "myt-test",
+      "server": "openresty"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/benchtesting.com/",
+      "lineNumber": 1960,
+      "columnNumber": 95
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/images/p_99715/99718_index_icon_3.png",
+    "type": "image",
+    "size": 723,
+    "originalSize": 723,
+    "status": 200,
+    "headers": {
+      "accept-ranges": "bytes",
+      "cache-control": "max-age=2592000",
+      "content-length": "723",
+      "content-type": "image/png",
+      "date": "Fri, 09 May 2025 03:27:46 GMT",
+      "etag": "\"67860c30-2d3\"",
+      "expires": "Sun, 08 Jun 2025 03:27:46 GMT",
+      "last-modified": "Tue, 14 Jan 2025 07:03:12 GMT",
+      "myhost": "myt-test",
+      "server": "openresty"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/benchtesting.com/",
+      "lineNumber": 1969,
+      "columnNumber": 95
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/images/p_99715/99718_index_icon_4.png",
+    "type": "image",
+    "size": 682,
+    "originalSize": 682,
+    "status": 200,
+    "headers": {
+      "accept-ranges": "bytes",
+      "cache-control": "max-age=2592000",
+      "content-length": "682",
+      "content-type": "image/png",
+      "date": "Fri, 09 May 2025 03:27:46 GMT",
+      "etag": "\"67860c30-2aa\"",
+      "expires": "Sun, 08 Jun 2025 03:27:46 GMT",
+      "last-modified": "Tue, 14 Jan 2025 07:03:12 GMT",
+      "myhost": "myt-test",
+      "server": "openresty"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/benchtesting.com/",
+      "lineNumber": 1978,
+      "columnNumber": 95
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/photo/benchtesting/sitetpl_test/style/common.js?ver=1746527515",
+    "type": "script",
+    "size": 91683,
+    "originalSize": 91683,
+    "status": 200,
+    "headers": {
+      "content-encoding": "gzip",
+      "content-type": "application/x-javascript",
+      "date": "Fri, 09 May 2025 03:27:46 GMT",
+      "etag": "W/\"6819e51b-16623\"",
+      "last-modified": "Tue, 06 May 2025 10:31:55 GMT",
+      "myhost": "myt-test",
+      "server": "openresty",
+      "vary": "Accept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/benchtesting.com/",
+      "lineNumber": 2606,
+      "columnNumber": 111
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/js/guidecommon.js",
+    "type": "script",
+    "size": 34414,
+    "originalSize": 34414,
+    "status": 200,
+    "headers": {
+      "cache-control": "max-age=86400",
+      "content-encoding": "gzip",
+      "content-type": "application/x-javascript",
+      "date": "Fri, 09 May 2025 03:27:46 GMT",
+      "etag": "W/\"67f9db08-866e\"",
+      "expires": "Sat, 10 May 2025 03:27:46 GMT",
+      "last-modified": "Sat, 12 Apr 2025 03:16:24 GMT",
+      "myhost": "myt-test",
+      "server": "openresty",
+      "vary": "Accept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/benchtesting.com/",
+      "lineNumber": 2607,
+      "columnNumber": 61
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/benchtesting.com/photo/ad31228106-what_it_means_to_be_a_mixed_race_model_in_japan.jpg",
+    "type": "image",
+    "size": 61858,
+    "originalSize": 61858,
+    "status": 200,
+    "headers": {
+      "content-encoding": "gzip",
+      "content-type": "image/jpeg",
+      "date": "Fri, 09 May 2025 03:27:46 GMT",
+      "expires": "Sun, 08 Jun 2025 03:25:56 GMT",
+      "last-modified": "Thu, 20 Aug 2020 08:48:43 GMT",
+      "server": "openresty",
+      "vary": "Accept-Encoding",
+      "x-cache": "/test/benchtesting.com/photo/ad31228106-what_it_means_to_be_a_mixed_race_model_in_japan.jpg|HIT"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/benchtesting.com/",
+      "lineNumber": 2160,
+      "columnNumber": 183
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/images/fonts/Rubik-Regular.woff",
+    "type": "font",
+    "size": 95196,
+    "originalSize": 95196,
+    "status": 200,
+    "headers": {
+      "content-encoding": "gzip",
+      "content-type": "text/plain",
+      "date": "Fri, 09 May 2025 03:27:46 GMT",
+      "etag": "W/\"677609dd-173dc\"",
+      "last-modified": "Thu, 02 Jan 2025 03:37:01 GMT",
+      "myhost": "myt-test",
+      "server": "openresty",
+      "vary": "Accept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/photo/benchtesting/sitetpl_test/style/commonV2.css?ver=1746527515"
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/stats.js",
+    "type": "script",
+    "size": 0,
+    "originalSize": 0,
+    "status": 200,
+    "headers": {
+      "content-length": "0",
+      "content-type": "application/x-javascript",
+      "date": "Fri, 09 May 2025 03:27:47 GMT",
+      "myhost": "myt-test",
+      "server": "openresty"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [
+          {
+            "functionName": "",
+            "scriptId": "15",
+            "url": "https://mao.ecer.com/test/benchtesting.com/",
+            "lineNumber": 2606,
+            "columnNumber": 337
+          },
+          {
+            "functionName": "",
+            "scriptId": "15",
+            "url": "https://mao.ecer.com/test/benchtesting.com/",
+            "lineNumber": 2606,
+            "columnNumber": 359
+          }
+        ]
+      }
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": false
+  },
+  {
+    "url": "https://mao.ecer.com/test/images/ctm_icon_vr.png",
+    "type": "image",
+    "size": 1748,
+    "originalSize": 1748,
+    "status": 200,
+    "headers": {
+      "cache-control": "max-age=2592000",
+      "content-encoding": "gzip",
+      "content-type": "image/png",
+      "date": "Fri, 09 May 2025 03:27:47 GMT",
+      "etag": "W/\"6541b9cc-6d4\"",
+      "expires": "Sun, 08 Jun 2025 03:27:47 GMT",
+      "last-modified": "Wed, 01 Nov 2023 02:37:00 GMT",
+      "myhost": "myt-test",
+      "server": "openresty",
+      "vary": "Accept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/benchtesting.com/",
+      "lineNumber": 2605,
+      "columnNumber": 75
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/images/fonts/iconfont_module.woff?t=1632726555099",
+    "type": "font",
+    "size": 24544,
+    "originalSize": 24544,
+    "status": 200,
+    "headers": {
+      "content-encoding": "gzip",
+      "content-type": "text/plain",
+      "date": "Fri, 09 May 2025 03:27:46 GMT",
+      "etag": "W/\"65485f4b-5fe0\"",
+      "last-modified": "Mon, 06 Nov 2023 03:36:43 GMT",
+      "myhost": "myt-test",
+      "server": "openresty",
+      "vary": "Accept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/photo/benchtesting/sitetpl_test/style/commonV2.css?ver=1746527515"
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/js/webimV3.js",
+    "type": "script",
+    "size": 20976,
+    "originalSize": 20976,
+    "status": 200,
+    "headers": {
+      "cache-control": "max-age=86400",
+      "content-encoding": "gzip",
+      "content-type": "application/x-javascript",
+      "date": "Fri, 09 May 2025 03:27:47 GMT",
+      "etag": "W/\"681b27dc-51f0\"",
+      "expires": "Sat, 10 May 2025 03:27:47 GMT",
+      "last-modified": "Wed, 07 May 2025 09:29:00 GMT",
+      "myhost": "myt-test",
+      "server": "openresty",
+      "vary": "Accept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/benchtesting.com/",
+      "lineNumber": 2608,
+      "columnNumber": 57
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/getseller.html",
+    "type": "xhr",
+    "size": 7,
+    "originalSize": 7,
+    "status": 200,
+    "headers": {
+      "content-encoding": "gzip",
+      "content-type": "text/html",
+      "date": "Fri, 09 May 2025 03:27:47 GMT",
+      "myhost": "myt-test",
+      "server": "openresty",
+      "vary": "Accept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [
+          {
+            "functionName": "send",
+            "scriptId": "12",
+            "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+            "lineNumber": 3,
+            "columnNumber": 26576
+          },
+          {
+            "functionName": "ajax",
+            "scriptId": "12",
+            "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+            "lineNumber": 3,
+            "columnNumber": 22179
+          },
+          {
+            "functionName": "",
+            "scriptId": "13",
+            "url": "https://mao.ecer.com/photo/benchtesting/sitetpl_test/style/common.js?ver=1746527515",
+            "lineNumber": 0,
+            "columnNumber": 31065
+          },
+          {
+            "functionName": "i",
+            "scriptId": "12",
+            "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+            "lineNumber": 1,
+            "columnNumber": 27448
+          },
+          {
+            "functionName": "fireWith",
+            "scriptId": "12",
+            "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+            "lineNumber": 1,
+            "columnNumber": 28212
+          },
+          {
+            "functionName": "ready",
+            "scriptId": "12",
+            "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+            "lineNumber": 1,
+            "columnNumber": 30005
+          },
+          {
+            "functionName": "K",
+            "scriptId": "12",
+            "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+            "lineNumber": 1,
+            "columnNumber": 30367
+          }
+        ]
+      }
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/benchtesting.com/photo/ad142854190-recently_our_new_products_have_been_praised_by_customers.jpg",
+    "type": "image",
+    "size": 107344,
+    "originalSize": 107344,
+    "status": 200,
+    "headers": {
+      "content-encoding": "gzip",
+      "content-type": "image/jpeg",
+      "date": "Fri, 09 May 2025 03:27:47 GMT",
+      "expires": "Sun, 08 Jun 2025 03:25:56 GMT",
+      "last-modified": "Thu, 15 Dec 2022 07:51:29 GMT",
+      "server": "openresty",
+      "vary": "Accept-Encoding",
+      "x-cache": "/test/benchtesting.com/photo/ad142854190-recently_our_new_products_have_been_praised_by_customers.jpg|HIT"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/benchtesting.com/",
+      "lineNumber": 2176,
+      "columnNumber": 203
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/benchtesting.com/photo/ad31228033-rihanna_s_harper_s_bazaar_china_cover_sparks_questions_of_cultural_appropriation.jpg",
+    "type": "image",
+    "size": 82116,
+    "originalSize": 82116,
+    "status": 200,
+    "headers": {
+      "content-encoding": "gzip",
+      "content-type": "image/jpeg",
+      "date": "Fri, 09 May 2025 03:27:47 GMT",
+      "expires": "Sun, 08 Jun 2025 03:25:56 GMT",
+      "last-modified": "Thu, 20 Aug 2020 08:46:34 GMT",
+      "server": "openresty",
+      "vary": "Accept-Encoding",
+      "x-cache": "/test/benchtesting.com/photo/ad31228033-rihanna_s_harper_s_bazaar_china_cover_sparks_questions_of_cultural_appropriation.jpg|HIT"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/benchtesting.com/",
+      "lineNumber": 2192,
+      "columnNumber": 249
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/images/p_99715/99718_index_news_bg.jpeg",
+    "type": "image",
+    "size": 9841,
+    "originalSize": 9841,
+    "status": 200,
+    "headers": {
+      "cache-control": "max-age=2592000",
+      "content-encoding": "gzip",
+      "content-type": "image/jpeg",
+      "date": "Fri, 09 May 2025 03:27:47 GMT",
+      "etag": "W/\"6777435b-2671\"",
+      "expires": "Sun, 08 Jun 2025 03:27:47 GMT",
+      "last-modified": "Fri, 03 Jan 2025 01:54:35 GMT",
+      "myhost": "myt-test",
+      "server": "openresty",
+      "vary": "Accept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "parser",
+      "url": "https://mao.ecer.com/test/benchtesting.com/",
+      "lineNumber": 2605,
+      "columnNumber": 75
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/video/video.min.js?v=20240528",
+    "type": "script",
+    "size": 173721,
+    "originalSize": 173721,
+    "status": 200,
+    "headers": {
+      "cache-control": "max-age=86400",
+      "content-encoding": "gzip",
+      "content-type": "application/x-javascript",
+      "date": "Fri, 09 May 2025 03:27:47 GMT",
+      "etag": "W/\"67ee7f2e-2a699\"",
+      "expires": "Sat, 10 May 2025 03:27:47 GMT",
+      "last-modified": "Thu, 03 Apr 2025 12:29:34 GMT",
+      "myhost": "myt-test",
+      "server": "openresty",
+      "vary": "Accept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [
+          {
+            "functionName": "window.loadScript",
+            "scriptId": "13",
+            "url": "https://mao.ecer.com/photo/benchtesting/sitetpl_test/style/common.js?ver=1746527515",
+            "lineNumber": 0,
+            "columnNumber": 62339
+          },
+          {
+            "functionName": "",
+            "scriptId": "13",
+            "url": "https://mao.ecer.com/photo/benchtesting/sitetpl_test/style/common.js?ver=1746527515",
+            "lineNumber": 34,
+            "columnNumber": 1136
+          }
+        ]
+      }
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/benchtesting.com/photo/cs154021395-led_strip_light.jpg",
+    "type": "image",
+    "size": 265069,
+    "originalSize": 265069,
+    "status": 200,
+    "headers": {
+      "content-encoding": "gzip",
+      "content-type": "image/jpeg",
+      "date": "Fri, 09 May 2025 03:27:47 GMT",
+      "expires": "Sun, 08 Jun 2025 03:25:57 GMT",
+      "last-modified": "Thu, 13 Jul 2023 06:14:53 GMT",
+      "server": "openresty",
+      "vary": "Accept-Encoding",
+      "x-cache": "/test/benchtesting.com/photo/cs154021395-led_strip_light.jpg|HIT"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [],
+        "parent": {
+          "description": "Image",
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "13",
+              "url": "https://mao.ecer.com/photo/benchtesting/sitetpl_test/style/common.js?ver=1746527515",
+              "lineNumber": 0,
+              "columnNumber": 30205
+            },
+            {
+              "functionName": "each",
+              "scriptId": "12",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 2880
+            },
+            {
+              "functionName": "each",
+              "scriptId": "12",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 845
+            },
+            {
+              "functionName": "f",
+              "scriptId": "13",
+              "url": "https://mao.ecer.com/photo/benchtesting/sitetpl_test/style/common.js?ver=1746527515",
+              "lineNumber": 0,
+              "columnNumber": 29814
+            },
+            {
+              "functionName": "delayLoading",
+              "scriptId": "13",
+              "url": "https://mao.ecer.com/photo/benchtesting/sitetpl_test/style/common.js?ver=1746527515",
+              "lineNumber": 0,
+              "columnNumber": 30610
+            },
+            {
+              "functionName": "",
+              "scriptId": "13",
+              "url": "https://mao.ecer.com/photo/benchtesting/sitetpl_test/style/common.js?ver=1746527515",
+              "lineNumber": 0,
+              "columnNumber": 30871
+            },
+            {
+              "functionName": "i",
+              "scriptId": "12",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 27448
+            },
+            {
+              "functionName": "fireWith",
+              "scriptId": "12",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 28212
+            },
+            {
+              "functionName": "ready",
+              "scriptId": "12",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 30005
+            },
+            {
+              "functionName": "K",
+              "scriptId": "12",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 30367
+            }
+          ]
+        }
+      }
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/js/swiper-bundle.min.js",
+    "type": "script",
+    "size": 136967,
+    "originalSize": 136967,
+    "status": 200,
+    "headers": {
+      "cache-control": "max-age=86400",
+      "content-encoding": "gzip",
+      "content-type": "application/x-javascript",
+      "date": "Fri, 09 May 2025 03:27:47 GMT",
+      "etag": "W/\"6541b9cc-21707\"",
+      "expires": "Sat, 10 May 2025 03:27:47 GMT",
+      "last-modified": "Wed, 01 Nov 2023 02:37:00 GMT",
+      "myhost": "myt-test",
+      "server": "openresty",
+      "vary": "Accept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [
+          {
+            "functionName": "loadScript715",
+            "scriptId": "13",
+            "url": "https://mao.ecer.com/photo/benchtesting/sitetpl_test/style/common.js?ver=1746527515",
+            "lineNumber": 0,
+            "columnNumber": 49735
+          },
+          {
+            "functionName": "",
+            "scriptId": "13",
+            "url": "https://mao.ecer.com/photo/benchtesting/sitetpl_test/style/common.js?ver=1746527515",
+            "lineNumber": 0,
+            "columnNumber": 49863
+          },
+          {
+            "functionName": "i",
+            "scriptId": "12",
+            "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+            "lineNumber": 1,
+            "columnNumber": 27448
+          },
+          {
+            "functionName": "fireWith",
+            "scriptId": "12",
+            "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+            "lineNumber": 1,
+            "columnNumber": 28212
+          },
+          {
+            "functionName": "ready",
+            "scriptId": "12",
+            "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+            "lineNumber": 1,
+            "columnNumber": 30005
+          },
+          {
+            "functionName": "K",
+            "scriptId": "12",
+            "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+            "lineNumber": 1,
+            "columnNumber": 30367
+          }
+        ]
+      }
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/video/videojs-http-streaming.js?v=20240528",
+    "type": "script",
+    "size": 308862,
+    "originalSize": 308862,
+    "status": 200,
+    "headers": {
+      "cache-control": "max-age=86400",
+      "content-encoding": "gzip",
+      "content-type": "application/x-javascript",
+      "date": "Fri, 09 May 2025 03:27:48 GMT",
+      "etag": "W/\"67ee7f2e-4b67e\"",
+      "expires": "Sat, 10 May 2025 03:27:48 GMT",
+      "last-modified": "Thu, 03 Apr 2025 12:29:34 GMT",
+      "myhost": "myt-test",
+      "server": "openresty",
+      "vary": "Accept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [
+          {
+            "functionName": "window.loadScript",
+            "scriptId": "13",
+            "url": "https://mao.ecer.com/photo/benchtesting/sitetpl_test/style/common.js?ver=1746527515",
+            "lineNumber": 0,
+            "columnNumber": 62339
+          },
+          {
+            "functionName": "",
+            "scriptId": "13",
+            "url": "https://mao.ecer.com/photo/benchtesting/sitetpl_test/style/common.js?ver=1746527515",
+            "lineNumber": 34,
+            "columnNumber": 1273
+          },
+          {
+            "functionName": "script.onload.script.onreadystatechange",
+            "scriptId": "13",
+            "url": "https://mao.ecer.com/photo/benchtesting/sitetpl_test/style/common.js?ver=1746527515",
+            "lineNumber": 0,
+            "columnNumber": 62077
+          }
+        ]
+      }
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/video/ePlayer.js?v=20240528",
+    "type": "script",
+    "size": 12107,
+    "originalSize": 12107,
+    "status": 200,
+    "headers": {
+      "cache-control": "max-age=86400",
+      "content-encoding": "gzip",
+      "content-type": "application/x-javascript",
+      "date": "Fri, 09 May 2025 03:27:48 GMT",
+      "etag": "W/\"67f64bfa-2f4b\"",
+      "expires": "Sat, 10 May 2025 03:27:48 GMT",
+      "last-modified": "Wed, 09 Apr 2025 10:29:14 GMT",
+      "myhost": "myt-test",
+      "server": "openresty",
+      "vary": "Accept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [
+          {
+            "functionName": "window.loadScript",
+            "scriptId": "13",
+            "url": "https://mao.ecer.com/photo/benchtesting/sitetpl_test/style/common.js?ver=1746527515",
+            "lineNumber": 0,
+            "columnNumber": 62339
+          },
+          {
+            "functionName": "",
+            "scriptId": "13",
+            "url": "https://mao.ecer.com/photo/benchtesting/sitetpl_test/style/common.js?ver=1746527515",
+            "lineNumber": 34,
+            "columnNumber": 1423
+          },
+          {
+            "functionName": "script.onload.script.onreadystatechange",
+            "scriptId": "13",
+            "url": "https://mao.ecer.com/photo/benchtesting/sitetpl_test/style/common.js?ver=1746527515",
+            "lineNumber": 0,
+            "columnNumber": 62077
+          }
+        ],
+        "parent": {
+          "description": "script",
+          "callFrames": [
+            {
+              "functionName": "window.loadScript",
+              "scriptId": "13",
+              "url": "https://mao.ecer.com/photo/benchtesting/sitetpl_test/style/common.js?ver=1746527515",
+              "lineNumber": 0,
+              "columnNumber": 61850
+            },
+            {
+              "functionName": "",
+              "scriptId": "13",
+              "url": "https://mao.ecer.com/photo/benchtesting/sitetpl_test/style/common.js?ver=1746527515",
+              "lineNumber": 34,
+              "columnNumber": 1273
+            },
+            {
+              "functionName": "script.onload.script.onreadystatechange",
+              "scriptId": "13",
+              "url": "https://mao.ecer.com/photo/benchtesting/sitetpl_test/style/common.js?ver=1746527515",
+              "lineNumber": 0,
+              "columnNumber": 62077
+            }
+          ]
+        }
+      }
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/images/ctm_icon_vrshow.png",
+    "type": "image",
+    "size": 2614,
+    "originalSize": 2614,
+    "status": 200,
+    "headers": {
+      "cache-control": "max-age=2592000",
+      "content-encoding": "gzip",
+      "content-type": "image/png",
+      "date": "Fri, 09 May 2025 03:27:48 GMT",
+      "etag": "W/\"6541b9cc-a36\"",
+      "expires": "Sun, 08 Jun 2025 03:27:48 GMT",
+      "last-modified": "Wed, 01 Nov 2023 02:37:00 GMT",
+      "myhost": "myt-test",
+      "server": "openresty",
+      "vary": "Accept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "other"
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/favicon.ico",
+    "type": "other",
+    "size": 1150,
+    "originalSize": 1150,
+    "status": 200,
+    "headers": {
+      "accept-ranges": "bytes",
+      "content-length": "1150",
+      "content-type": "image/x-icon",
+      "date": "Fri, 09 May 2025 03:27:48 GMT",
+      "etag": "\"565e96ea-47e\"",
+      "last-modified": "Wed, 02 Dec 2015 06:59:54 GMT",
+      "myhost": "myt-test",
+      "server": "openresty"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "other"
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://vr.ecerimg.com/data/18/41/benchtesting/vr/cover_thumb.jpg",
+    "type": "image",
+    "size": 5816,
+    "originalSize": 5816,
+    "status": 200,
+    "headers": {
+      "accept-ranges": "bytes",
+      "access-control-allow-credentials": "true",
+      "access-control-allow-headers": "X-Requested-With\nX-Requested-With, Content-Type",
+      "access-control-allow-methods": "GET,POST,OPTIONS\nOPTIONS, POST, GET",
+      "access-control-allow-origin": "*\n*",
+      "cache-control": "max-age=2592000",
+      "content-encoding": "gzip",
+      "content-type": "image/jpeg",
+      "date": "Fri, 09 May 2025 03:27:48 GMT",
+      "etag": "W/\"6346352e-16b8\"",
+      "expires": "Sun, 08 Jun 2025 03:27:48 GMT",
+      "last-modified": "Wed, 12 Oct 2022 03:31:58 GMT",
+      "server": "nginx",
+      "vary": "Accept-Encoding\nAccept-Encoding"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "other"
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/benchtesting.com/photo/cs154138785-men_s_clothes.jpg",
+    "type": "image",
+    "size": 335349,
+    "originalSize": 335349,
+    "status": 200,
+    "headers": {
+      "content-encoding": "gzip",
+      "content-type": "image/jpeg",
+      "date": "Fri, 09 May 2025 03:27:53 GMT",
+      "expires": "Sun, 08 Jun 2025 03:26:17 GMT",
+      "last-modified": "Fri, 14 Jul 2023 03:59:22 GMT",
+      "server": "openresty",
+      "vary": "Accept-Encoding",
+      "x-cache": "/test/benchtesting.com/photo/cs154138785-men_s_clothes.jpg|HIT"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [],
+        "parent": {
+          "description": "Image",
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "13",
+              "url": "https://mao.ecer.com/photo/benchtesting/sitetpl_test/style/common.js?ver=1746527515",
+              "lineNumber": 0,
+              "columnNumber": 30205
+            },
+            {
+              "functionName": "each",
+              "scriptId": "12",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 2880
+            },
+            {
+              "functionName": "each",
+              "scriptId": "12",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 845
+            },
+            {
+              "functionName": "f",
+              "scriptId": "13",
+              "url": "https://mao.ecer.com/photo/benchtesting/sitetpl_test/style/common.js?ver=1746527515",
+              "lineNumber": 0,
+              "columnNumber": 29814
+            },
+            {
+              "functionName": "",
+              "scriptId": "13",
+              "url": "https://mao.ecer.com/photo/benchtesting/sitetpl_test/style/common.js?ver=1746527515",
+              "lineNumber": 0,
+              "columnNumber": 30653
+            },
+            {
+              "functionName": "dispatch",
+              "scriptId": "12",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 2,
+              "columnNumber": 12443
+            },
+            {
+              "functionName": "r.handle",
+              "scriptId": "12",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 2,
+              "columnNumber": 9172
+            },
+            {
+              "functionName": "trigger",
+              "scriptId": "12",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 2,
+              "columnNumber": 11572
+            },
+            {
+              "functionName": "",
+              "scriptId": "12",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 2,
+              "columnNumber": 18990
+            },
+            {
+              "functionName": "each",
+              "scriptId": "12",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 2880
+            },
+            {
+              "functionName": "each",
+              "scriptId": "12",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 1,
+              "columnNumber": 845
+            },
+            {
+              "functionName": "trigger",
+              "scriptId": "12",
+              "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+              "lineNumber": 2,
+              "columnNumber": 18966
+            },
+            {
+              "functionName": "slideChangeTransitionEnd",
+              "scriptId": "13",
+              "url": "https://mao.ecer.com/photo/benchtesting/sitetpl_test/style/common.js?ver=1746527515",
+              "lineNumber": 0,
+              "columnNumber": 44401
+            },
+            {
+              "functionName": "",
+              "scriptId": "30",
+              "url": "https://mao.ecer.com/test/js/swiper-bundle.min.js",
+              "lineNumber": 12,
+              "columnNumber": 8575
+            },
+            {
+              "functionName": "",
+              "scriptId": "30",
+              "url": "https://mao.ecer.com/test/js/swiper-bundle.min.js",
+              "lineNumber": 12,
+              "columnNumber": 8560
+            },
+            {
+              "functionName": "emit",
+              "scriptId": "30",
+              "url": "https://mao.ecer.com/test/js/swiper-bundle.min.js",
+              "lineNumber": 12,
+              "columnNumber": 8377
+            },
+            {
+              "functionName": "k",
+              "scriptId": "30",
+              "url": "https://mao.ecer.com/test/js/swiper-bundle.min.js",
+              "lineNumber": 12,
+              "columnNumber": 21958
+            },
+            {
+              "functionName": "transitionEnd",
+              "scriptId": "30",
+              "url": "https://mao.ecer.com/test/js/swiper-bundle.min.js",
+              "lineNumber": 12,
+              "columnNumber": 45040
+            },
+            {
+              "functionName": "r.animating.r.onSlideToWrapperTransitionEnd.r.onSlideToWrapperTransitionEnd",
+              "scriptId": "30",
+              "url": "https://mao.ecer.com/test/js/swiper-bundle.min.js",
+              "lineNumber": 12,
+              "columnNumber": 24351
+            }
+          ]
+        }
+      }
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  },
+  {
+    "url": "https://mao.ecer.com/test/benchtesting.com/photo/cs154138785-men_s_clothes.jpg",
+    "type": "image",
+    "size": 335349,
+    "originalSize": 335349,
+    "status": 200,
+    "headers": {
+      "content-encoding": "gzip",
+      "content-type": "image/jpeg",
+      "date": "Fri, 09 May 2025 03:27:53 GMT",
+      "expires": "Sun, 08 Jun 2025 03:26:17 GMT",
+      "last-modified": "Fri, 14 Jul 2023 03:59:22 GMT",
+      "server": "openresty",
+      "vary": "Accept-Encoding",
+      "x-cache": "/test/benchtesting.com/photo/cs154138785-men_s_clothes.jpg|HIT"
+    },
+    "fromCache": false,
+    "initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [
+          {
+            "functionName": "attr",
+            "scriptId": "12",
+            "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+            "lineNumber": 3,
+            "columnNumber": 11362
+          },
+          {
+            "functionName": "Y",
+            "scriptId": "12",
+            "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+            "lineNumber": 2,
+            "columnNumber": 4596
+          },
+          {
+            "functionName": "attr",
+            "scriptId": "12",
+            "url": "https://mao.ecer.com/test/js/jquery.1.12.4.js",
+            "lineNumber": 3,
+            "columnNumber": 10933
+          },
+          {
+            "functionName": "c.onload",
+            "scriptId": "13",
+            "url": "https://mao.ecer.com/photo/benchtesting/sitetpl_test/style/common.js?ver=1746527515",
+            "lineNumber": 0,
+            "columnNumber": 29994
+          }
+        ]
+      }
+    },
+    "redirectChain": [],
+    "isNavigation": false,
+    "valid": true
+  }
+]
