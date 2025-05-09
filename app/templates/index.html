@@ -1,0 +1,122 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>链接检查工具</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+        }
+        .result {
+            margin-top: 20px;
+        }
+        .result h3 {
+            margin-bottom: 10px;
+        }
+        .result table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .result th, .result td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        .result th {
+            background-color: #f2f2f2;
+        }
+        .message {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        #checkForm{
+            margin:50px auto;
+            /* height:300px; */
+        }
+        input[type='text']{
+            width:400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>链接检查工具</h1>
+        <form id="checkForm">
+            <div>
+                <label for="start_url">网站首页 URL:</label>
+                <input type="text" id="start_url" name="start_url" required>
+            </div>
+            <button type="submit" id="checkButton">执行检查</button>
+        </form>
+        <div class="result" id="result">
+            <table id="non200Table" style="display: none;">
+                <thead>
+                    <tr>
+                        <th>页面 URL</th>
+                        <th>链接</th>
+                        <th>状态码</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        <div class="message" id="message"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const socket = io();
+
+            document.getElementById('checkForm').addEventListener('submit', function(event) {
+                event.preventDefault();
+                const formData = new FormData(this);
+                const start_url = formData.get('start_url');
+
+                // 获取按钮元素
+                const checkButton = document.getElementById('checkButton');
+                // 禁用按钮并显示“正在检查”
+                checkButton.disabled = true;
+                checkButton.textContent = '正在检查...';
+
+                // 发送开始检查事件
+                socket.emit('start_check', { start_url: start_url });
+            });
+
+            socket.on('non_200_link', function(data) {
+                const table = document.getElementById('non200Table');
+                const tbody = table.querySelector('tbody');
+
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${data.page_url}</td>
+                    <td>${data.link}</td>
+                    <td>${data.status_code}</td>
+                `;
+                tbody.appendChild(row);
+
+                // 显示表格
+                table.style.display = 'table';
+            });
+
+            socket.on('check_complete', function(data) {
+                // 显示提示信息
+                const messageDiv = document.getElementById('message');
+                messageDiv.textContent = data.message;
+
+                // 恢复按钮状态
+                const checkButton = document.getElementById('checkButton');
+                checkButton.disabled = false;
+                checkButton.textContent = '执行检查';
+            });
+        });
+    </script>
+</body>
+</html>

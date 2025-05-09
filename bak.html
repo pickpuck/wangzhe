@@ -1,0 +1,146 @@
+<div class="qxkjg_ft_p_001">
+    
+  <!-- 右侧社交列表 -->
+   <div class="right_contact_lists_99516">
+       
+     {if $company.facebook}
+     <div class="item item1">
+       <a href="{$company.facebook}" title="Facebook" target="_blank" rel="noopener" title=""><span class="feitian ft-facebook1" style="color: #1877F2;"></span><span class="feitian ft-facebook1" style="color: #1877F2;"></span></a>
+     </div>
+     {/if}
+     {if $company.twitter}
+     <div class="item item1">
+       <a title="twitter " href="{$company.twitter}" target="_blank" rel="noopener" title=""><span class="feitian ft-twitter1" style="color: #1DA1F2;"></span><span class="feitian ft-twitter1" style="color: #1DA1F2;"></span></a>
+     </div>
+     {/if}
+     {if $company.youtube}
+     <div class="item item1">
+       <a title="youtube"  href="{$company.youtube}" target="_blank" rel="noopener" title=""><span class="feitian ft-youtube1" style="color: #FF0000;"></span><span class="feitian ft-youtube1" style="color: #FF0000;"></span></a>
+     </div>
+     {/if}
+     {if $company.instagram}
+     <div class="item item1">
+       <a title="instagram"  href="{$company.instagram}" target="_blank" rel="noopener" title=""><span class="feitian ft-instagram1" style="color: #F00073;"></span><span class="feitian ft-instagram1" style="color: #F00073;"></span></a>
+     </div>
+     {/if}
+     {if $company.linkedin}
+     <div class="item item1">
+       <a title="linkedin" href="{$company.linkedin}" target="_blank" rel="noopener" title=""><span class="feitian ft-linkedin1" style="color: #2867B2;"></span><span class="feitian ft-linkedin1" style="color: #2867B2;"></span></a>
+     </div>
+     {/if}
+     {if $company.tiktok}
+     <div class="item item1">
+       <a title="tiktok" href="{$company.tiktok}" target="_blank" rel="noopener" title=""><span class="feitian ft-icon_TikTok-circle" style="color: #000000;"></span><span class="feitian ft-icon_TikTok-circle" style="color: #000000;"></span></a>
+     </div>
+     {/if}
+      <div class="item toplogo" style="">
+       <div class="a" style="margin-left: 3px;width: 40px;height: 40px;border-radius:50%;" title="all" title="">
+           <span class="span1"></span><span class="span2"></span>
+       </div>
+     </div>
+   </div>
+ 
+ <div class="footer_p_99708">
+   <div class="ecer-main-w ecer-flex ecer-flex-row ecer-flex-justify">
+     <div class="p_item">
+       <div class="p_logo image-all">
+           <a href="{"index.html"|href}" title="{'home.title'|seo}">
+         <img class="lazyi"  data-original="{$company.logo}"  src="/images/load_icon.gif" alt="{$company.name}">
+         </a>
+       </div>
+       <div class="p_info">
+         <a href="tel:{$company.tel}" title="tel">
+           <span class="feitian ft-mobile1"></span> {'Tel'|t}：{$company.tel}</a
+         >
+       </div>
+       <div class="p_info">
+         <a href="mailto:{$company.mail}"  title="tel" class="p_hover">
+           <span class="feitian ft-mail1"></span> {'Email'|t}：{$company.mail}</a
+         >
+       </div>
+       <div class="p_icon">
+         {get_contactlist assign="contactList"}
+         {foreach $contactList.persons as $person}
+         {if $person.whatapp && $person@index == 0}
+             <a href="https://api.whatsapp.com/send?phone={$person.whatapp}" class="feitian ft-whatsapp2"></a>
+         {/if}
+         {if $person.skype && $person@index == 0}
+             <a href="skype:{$person.skype}" class="feitian ft-skype1"></a>
+         {/if}
+         {/foreach}
+         
+         {get_companypics sid=$contactList.persons[0].id count=1 type=27 assign="pics"}
+          <span  class="feitian ft-wechat2">
+              
+               {if $pics[0].imgurl != ""}
+               <img src="{$pics[0].imgurl}" alt="{'wechat'|t}">
+               {/if}
+             
+          </span>
+       </div>
+     </div>
+     <div class="p_item p_item_list">
+       <div class="p_title">{"About Us"|t}</div>
+       <div class="p_info">
+         <a href="{"aboutus.html"|href}" title="{'aboutus.title'|seo}">
+           <span class="feitian ft-next2 feitian1"></span>
+           <span class="p_i"> {"Company Profile"|t}</span></a
+         >
+       </div>
+       <div class="p_info">
+         <a href="{"factory.html"|href}" title="{'company.factory.title'|seo}">
+           <span class="feitian ft-next2 feitian2"></span>
+           <span class="p_i">{'Factory Tour'|t}</span>
+         </a>
+       </div>
+       <div class="p_info">
+         <a href="{"quality.html"|href}" title="{'company.quality.title'|seo}">
+           <span class="feitian ft-next2 feitian3"></span
+           ><span class="p_i"> {'Quality Control'|t}</span></a
+         >
+       </div>
+       <div class="p_info">
+         <a href="{"sitemap.html"|href}" title="{'sitemap.title'|seo}">
+           <span class="feitian ft-next2 feitian4"></span>
+           <span class="p_i">{"Sitemap"|t}</span></a
+         >
+       </div>
+       <div class="p_title p_atitle">{"Events"|t}</div>
+        <div class="p_info">
+         <a href="{"cases.html"|href}" title="{'header.cases.title'|seo}">
+           <span class="feitian ft-next2 feitian6"></span>
+           <span class="p_i">{"News"|t:'':3}</span></a
+         >
+       </div>
+       <div class="p_info">
+         <a href="{"cases.html"|href}" title="{'header.cases.title'|seo}">
+           <span class="feitian ft-next2 feitian5"></span>
+           <span class="p_i">{"Cases"|t}</span></a
+         >
+       </div>
+      
+     </div>
+     <div class="p_item">
+       <div class="p_c_title ecer-ellipsis-n">
+         {$company.name}
+       </div>
+       <div class="p_c_desc ecer-ellipsis-n">
+         {$company.brief}
+       </div>
+       <div class="p_c_desc ecer-ellipsis-n p_c_desc2">
+         {"We'll get back to you as soon as possible."|t}
+       </div>
+       <div class="p_input">
+             <input autocomplete="new-password" id="inquiry_email1" type="text" name="email" placeholder="{'Enter Your Email...'|t}">
+             <textarea id="inquiry_message1" style="display:none;" value="{'Please briefly describe your requirement'|t}">{'Please briefly describe your requirement'|t}</textarea>
+             <button  onclick="submitPopInquiryByParam('inquiry_email1','inquiry_message1',1,'','')" type="submit" class="p_sing ecer-ellipsis" style="background: transparent;color: #fff ; outline: none;border: none;">
+               <span class="feitian ft-next2"></span> {"sign up"|t}
+             </button>
+       </div>
+     </div>
+   </div>
+ </div>
+ <div class="policy_p_99708">
+   <a  href="{"privacy.html"|href}" title="{'privacy.title'|seo}">{'Privacy Policy'|t}</a> {$thisYear ='Y'|date:($company.onlinetime|strtotime)} {'China Good Quality'|t} {$categorys[0]['name']} {'Supplier. Copyright ©'|t} {if $thisYear!=('Y'|date)} {$thisYear}-{/if}{'Y'|date} {$company.domain} {'. All Rights Reserved.'|t}
+ </div>
+</div>
