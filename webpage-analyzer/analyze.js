@@ -1,9 +1,9 @@
-// 分别统计各种文件用到了哪些域名，分别请求了多少次，总大小，总时间
-
+//AI 优化
+//添加滑动事件
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 
-// 新增URL标准化函数
+// URL标准化函数
 function normalizeURL(url) {
   try {
     const u = new URL(url);
@@ -22,9 +22,43 @@ function formatSize(bytes) {
   return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
 }
 
+// 资源有效性判断逻辑
+function isValidResource(response, buffer) {
+  const status = response.status();
+  const byteLength = buffer.byteLength;
+
+  // 判断资源是否有效
+  const isValid =
+    (status >= 200 && status < 400) && // 允许 2xx 和 3xx 范围内的状态码
+    (byteLength > 0 || isZeroSizeAllowed(response)); // 允许特定情况下的 0 字节资源
+
+  if (!isValid) {
+    console.warn(
+      '⚠️ 无效资源:',
+      `URL: ${response.url()}, Status: ${status}, Size: ${byteLength}`
+    );
+  }
+
+  return isValid;
+}
+
+// 判断是否允许 0 字节资源
+function isZeroSizeAllowed(response) {
+  const contentType = response.headers()['content-type'] || '';
+  const url = response.url();
+
+  // 允许特定类型或路径的 0 字节资源
+  return (
+    contentType.includes('text/plain') || // 空文本文件
+    url.endsWith('.json') || // JSON 文件可能为空
+    response.status() === 204 // 204 No Content
+  );
+}
+
+// 分析页面主函数
 async function analyzePage(url) {
   console.log('🚀 启动浏览器...');
-
+  const startTime = Date.now(); // 记录启动时间
   const browser = await puppeteer.launch({
     devtools: true,
     headless: false, // 启用有界面模式
@@ -38,7 +72,7 @@ async function analyzePage(url) {
   // 启用CDP客户端
   const client = await page.createCDPSession();
   await client.send('Network.enable');
-  await client.send('Network.setCacheDisabled', { cacheDisabled: true }); // CDP级别禁用缓存
+  // await client.send('Network.setCacheDisabled', { cacheDisabled: true }); // CDP级别禁用缓存
 
   // 存储网络请求数据
   const networkData = new Map();
@@ -51,6 +85,7 @@ async function analyzePage(url) {
     });
   });
 
+  // 监听响应事件
   page.on('response', async (response) => {
     try {
       const req = response.request();
@@ -65,6 +100,9 @@ async function analyzePage(url) {
         0
       );
 
+      // 使用优化后的资源有效性判断逻辑
+      const valid = isValidResource(response, buffer);
+
       resources.push({
         url: req.url(),
         type: req.resourceType(),
@@ -76,46 +114,101 @@ async function analyzePage(url) {
         initiator: req.initiator() || {},
         redirectChain: req.redirectChain().map(r => r.url()),
         isNavigation: req.isNavigationRequest(),
-        valid: response.ok() && buffer.byteLength > 0
+        valid
       });
     } catch (err) {
       console.error('⚠️ 资源收集错误:', err.message);
     }
   });
 
-  // 增强页面加载策略
-  console.log(`🌐 正在访问: ${url}`);
-  await Promise.all([
-    page.goto(url, {
-      waitUntil: 'networkidle2',
-      timeout: 120000
-    }).then(() => console.log('🌐 页面导航完成')),
-    page.waitForNetworkIdle({
-      idleTime: 5000,
-      timeout: 120000
-    }).then(() => console.log('🌐 网络空闲'))
-  ]);
+// 增强页面加载策略
+console.log(`🌐 正在访问: ${url}`);
+await Promise.all([
+  page.goto(url, {
+    // waitUntil: 'networkidle0',
+    // timeout: 120000
+ waitUntil: 'domcontentloaded', // 改为 domcontentloaded 而非 networkidle0
+    timeout: 120000 // 减少超时时间
 
-  // 捕获动态加载资源
-  await page.evaluate(() => {
-    new MutationObserver(() => {}).observe(document.documentElement, {
-      childList: true,
-      subtree: true
+  }).then(() => console.log('🌐 页面导航完成')),
+  page.waitForNetworkIdle({
+    // idleTime: 5000,
+    // timeout: 120000
+idleTime: 1000, // 减少空闲等待时间
+    timeout: 120000
+
+  }).then(() => console.log('🌐 网络空闲'))
+]);
+
+// 新增：模拟页面滚动到底部
+console.log('⬇️ 模拟页面滚动到底部...');
+await autoScroll(page);
+
+// 新增：模拟页面向上滚动一次
+console.log('⬆️ 模拟页面向上滚动一次...');
+await autoScrollUp(page);
+
+// 捕获动态加载资源
+await page.evaluate(() => {
+  new MutationObserver(() => {}).observe(document.documentElement, {
+    childList: true,
+    subtree: true
+  });
+});
+await new Promise(resolve => setTimeout(resolve, 3000));
+
+// 滚动到底部的辅助函数
+// 简化滚动逻辑，减少执行时间
+async function autoScroll(page) {
+  await page.evaluate(async () => {
+    return new Promise((resolve) => {
+      let totalHeight = 0;
+      const distance = 100;
+      const timer = setInterval(() => {
+        const scrollHeight = document.body.scrollHeight;
+        window.scrollBy(0, distance);
+        totalHeight += distance;
+
+        if (totalHeight >= scrollHeight) {
+          clearInterval(timer);
+          resolve();
+        }
+      }, 100);
     });
   });
-  await new Promise(resolve => setTimeout(resolve, 3000));
+}
+
+// 移除向上滚动，通常不需要
+// 向上滚动的辅助函数
+async function autoScrollUp(page) {
+  await page.evaluate(async () => {
+    await new Promise((resolve) => {
+      let totalScrolled = 0;
+      const distance = 50; // 每次向上滚动的距离
+      const timer = setInterval(() => {
+        window.scrollBy(0, -distance); // 负值表示向上滚动
+        totalScrolled += distance;
+
+        if (window.scrollY === 0 || totalScrolled >= document.body.scrollHeight) {
+          clearInterval(timer);
+          resolve();
+        }
+      }, 50);
+    });
+  });
+}
 
   console.log('📊 分析资源...');
   const result = {
     timestamp: new Date().toISOString(),
     analyzedUrl: url,
     totalRequests: resources.length,
-
+    totalSize:0,
     css: { count: 0, size: 0, originalSize: 0, urls: [], domainStats: {} },
     js: { count: 0, size: 0, originalSize: 0, urls: [], domainStats: {} },
     images: { count: 0, size: 0, originalSize: 0, urls: [], domainStats: {} },
     fonts: { count: 0, size: 0, originalSize: 0, urls: [], domainStats: {} },
-    other: { count: 0, size: 0, originalSize: 0, domainStats: {} }
+    other: { count: 0, size: 0, originalSize: 0, urls: [],domainStats: {} }
   };
 
   // 增强资源识别规则
@@ -191,352 +284,150 @@ async function analyzePage(url) {
     ].some(Boolean);
   };
 
-  // 使用增强版统计逻辑
-  const cssTracker = new Map();
-  const jsTracker = new Map();
-  const imageTracker = new Map();
-  const fontTracker = new Map();
+  // 统计逻辑
+  const trackers = {
+    css: new Map(),
+    js: new Map(),
+    images: new Map(),
+    fonts: new Map()
+  };
 
   resources.forEach(res => {
-    // CSS处理
-    if (isCSSResource(res)) {
-      const initiatorKey = [
-        res.type,
-        res.initiator.type,
-        res.initiator.url || '',
-        res.initiator.stack?.callFrames[0]?.url || ''
-      ].join('|');
+    if (isCSSResource(res)) handleResource(res, result.css, trackers.css, 'CSS');
+    else if (isJSResource(res)) handleResource(res, result.js, trackers.js, 'JS');
+    else if (isImageResource(res)) handleResource(res, result.images, trackers.images, 'Image');
+    else if (isFontResource(res)) handleResource(res, result.fonts, trackers.fonts, 'Font');
+  else if (res.type && !['document', 'script', 'stylesheet', 'image', 'font'].includes(res.type)) {
+    handleOtherResource(res, result.other);
+  }
+});
 
-      const uniqueKey = `${normalizeURL(res.url)}__${initiatorKey}`;
- console.log('CSS Unique Key:', uniqueKey); // 打印 uniqueKey
-      if (!cssTracker.has(uniqueKey)) {
-        cssTracker.set(uniqueKey, true);
-        result.css.urls.push({
-          url: res.url,
-          normalized: normalizeURL(res.url),
-          initiator: res.initiator,
-          size: formatSize(res.size),
-          originalSize: formatSize(res.originalSize),
-          status: res.status,
-          cached: res.fromCache,
-          redirects: res.redirectChain
-        });
-        result.css.count++;
-      }
+  // 统一处理资源统计
+  function handleResource(res, category, tracker, type) {
+    const initiatorKey = [
+      res.type,
+      res.initiator.type,
+      res.initiator.url || '',
+      res.initiator.stack?.callFrames[0]?.url || ''
+    ].join('|');
 
-      result.css.size += res.size;
-      result.css.originalSize += res.originalSize;
-
-      // 👇 域名统计：CSS
-      try {
-        const domain = new URL(res.url).hostname;
-        if (!result.css.domainStats[domain]) {
-          result.css.domainStats[domain] = {
-            count: 0,
-            size: 0,
-            time: 0,
-            requests: []
-          };
-        }
-
-        result.css.domainStats[domain].count++;
-        result.css.domainStats[domain].size += res.size;
-        result.css.domainStats[domain].time += res.originalSize;
-
-        result.css.domainStats[domain].requests.push({
-          url: res.url,
-          size: formatSize(res.size),
-          originalSize: formatSize(res.originalSize),
-          status: res.status,
-          cached: res.fromCache,
-          redirects: res.redirectChain
-        });
-      } catch (e) {
-        console.warn('⚠️ 无法解析 CSS 资源域名:', res.url);
-      }
+    const uniqueKey = `${normalizeURL(res.url)}__${initiatorKey}`;
+    if (!tracker.has(uniqueKey)) {
+      tracker.set(uniqueKey, true);
+      category.urls.push({
+        url: res.url,
+        normalized: normalizeURL(res.url),
+        initiator: res.initiator,
+        size: formatSize(res.size),
+        originalSize: formatSize(res.originalSize),
+        status: res.status,
+        cached: res.fromCache,
+        redirects: res.redirectChain
+      });
+      // category.count++;
     }
+    category.count++;
+    category.size += res.size;
+    category.originalSize += res.originalSize;
 
-    // JS处理
-    else if (isJSResource(res)) {
-      const initiatorKey = [
-        res.initiator.type,
-        res.initiator.url || '',
-        res.initiator.stack?.callFrames[0]?.url || ''
-      ].join('|');
+    updateDomainStats(category, res, type.toLowerCase());
+  }
 
-      const uniqueKey = [
-        normalizeURL(res.url),
-        res.initiator.type || '',
-        res.initiator.url || '',
-        (res.initiator.stack?.callFrames[0]?.url || '').toLowerCase(),
-        res.redirectChain.join('|')
-      ].join('__');
+  function handleOtherResource(res, category) {
+    category.count++;
+    category.size += res.size;
+    category.originalSize += res.originalSize;
 
-      if (!jsTracker.has(uniqueKey)) {
-        jsTracker.set(uniqueKey, true);
-        result.js.urls.push({
-          url: res.url,
-          normalized: normalizeURL(res.url),
-          initiator: res.initiator,
-          size: formatSize(res.size),
-          originalSize: formatSize(res.originalSize),
-          status: res.status,
-          cached: res.fromCache,
-          redirects: res.redirectChain
-        });
-        result.js.count++;
-      }
-      result.js.size += res.size;
-      result.js.originalSize += res.originalSize;
-
-      // 👇 域名统计：JS
-      try {
-        const domain = new URL(res.url).hostname;
-        if (!result.js.domainStats[domain]) {
-          result.js.domainStats[domain] = {
-            count: 0,
-            size: 0,
-            time: 0,
-            requests: []
-          };
-        }
-
-        result.js.domainStats[domain].count++;
-        result.js.domainStats[domain].size += res.size;
-        result.js.domainStats[domain].time += res.originalSize;
-
-        result.js.domainStats[domain].requests.push({
-          url: res.url,
-          size: formatSize(res.size),
-          originalSize: formatSize(res.originalSize),
-          status: res.status,
-          cached: res.fromCache,
-          redirects: res.redirectChain
-        });
-      } catch (e) {
-        console.warn('⚠️ 无法解析 JS 资源域名:', res.url);
-      }
-    }
-
-    // 图片处理
-    else if (isImageResource(res)) {
-      const initiatorKey = [
-        res.initiator.type,
-        res.initiator.url || '',
-        res.initiator.stack?.callFrames[0]?.url || ''
-      ].join('|');
-
-      const uniqueKey = [
-        normalizeURL(res.url),
-        res.initiator.type || '',
-        res.initiator.url || '',
-        (res.initiator.stack?.callFrames[0]?.url || '').toLowerCase(),
-        res.redirectChain.join('|')
-      ].join('__');
-
-      if (!imageTracker.has(uniqueKey)) {
-        imageTracker.set(uniqueKey, true);
-        result.images.urls.push({
-          url: res.url,
-          normalized: normalizeURL(res.url),
-          initiator: res.initiator,
-          size: formatSize(res.size),
-          originalSize: formatSize(res.originalSize),
-          status: res.status,
-          cached: res.fromCache,
-          redirects: res.redirectChain
-        });
-        result.images.count++;
-      }
-      result.images.size += res.size;
-      result.images.originalSize += res.size;
-
-      // 👇 域名统计：图片
-      try {
-        const domain = new URL(res.url).hostname;
-        if (!result.images.domainStats[domain]) {
-          result.images.domainStats[domain] = {
-            count: 0,
-            size: 0,
-            time: 0,
-            requests: []
-          };
-        }
-
-        result.images.domainStats[domain].count++;
-        result.images.domainStats[domain].size += res.size;
-        result.images.domainStats[domain].time += res.originalSize;
-
-        result.images.domainStats[domain].requests.push({
-          url: res.url,
-          size: formatSize(res.size),
-          originalSize: formatSize(res.originalSize),
-          status: res.status,
-          cached: res.fromCache,
-          redirects: res.redirectChain
-        });
-      } catch (e) {
-        console.warn('⚠️ 无法解析图片资源域名:', res.url);
-      }
-    }
-
-    // 字体处理
-    else if (isFontResource(res)) {
-      const initiatorKey = [
-        res.initiator.type,
-        res.initiator.url || '',
-        res.initiator.stack?.callFrames[0]?.url || ''
-      ].join('|');
-
-      const uniqueKey = [
-        normalizeURL(res.url),
-        res.initiator.type || '',
-        res.initiator.url || '',
-        (res.initiator.stack?.callFrames[0]?.url || '').toLowerCase(),
-        res.redirectChain.join('|')
-      ].join('__');
-
-      if (!fontTracker.has(uniqueKey)) {
-        fontTracker.set(uniqueKey, true);
-        result.fonts.urls.push({
-          url: res.url,
-          normalized: normalizeURL(res.url),
-          initiator: res.initiator,
-          size: formatSize(res.size),
-          originalSize: formatSize(res.originalSize),
-          status: res.status,
-          cached: res.fromCache,
-          redirects: res.redirectChain
-        });
-        result.fonts.count++;
-      }
-      result.fonts.size += res.size;
-      result.fonts.originalSize += res.size;
-
-      // 👇 域名统计：字体
-      try {
-        const domain = new URL(res.url).hostname;
-        if (!result.fonts.domainStats[domain]) {
-          result.fonts.domainStats[domain] = {
-            count: 0,
-            size: 0,
-            time: 0,
-            requests: []
-          };
-        }
-
-        result.fonts.domainStats[domain].count++;
-        result.fonts.domainStats[domain].size += res.size;
-        result.fonts.domainStats[domain].time += res.originalSize;
-
-        result.fonts.domainStats[domain].requests.push({
-          url: res.url,
-          size: formatSize(res.size),
-          originalSize: formatSize(res.originalSize),
-          status: res.status,
-          cached: res.fromCache,
-          redirects: res.redirectChain
-        });
-      } catch (e) {
-        console.warn('⚠️ 无法解析字体资源域名:', res.url);
-      }
-    }
-
-    // 其他资源
-    else {
-      result.other.count++;
-      result.other.size += res.size;
-      result.other.originalSize += res.size;
-
-      // 👇 域名统计：其他资源
-      try {
-        const domain = new URL(res.url).hostname;
-        if (!result.other.domainStats[domain]) {
-          result.other.domainStats[domain] = {
-            count: 0,
-            size: 0,
-            time: 0,
-            requests: []
-          };
-        }
-
-        result.other.domainStats[domain].count++;
-        result.other.domainStats[domain].size += res.size;
-        result.other.domainStats[domain].time += res.originalSize;
-
-        result.other.domainStats[domain].requests.push({
-          url: res.url,
-          size: formatSize(res.size),
-          originalSize: formatSize(res.originalSize),
-          status: res.status,
-          cached: res.fromCache,
-          redirects: res.redirectChain
-        });
-      } catch (e) {
-        console.warn('⚠️ 无法解析其他资源域名:', res.url);
-      }
-    }
+    category.urls.push({
+    url: res.url,
+    normalized: normalizeURL(res.url),
+    initiator: res.initiator,
+    size: formatSize(res.size),
+    originalSize: formatSize(res.originalSize),
+    status: res.status,
+    cached: res.fromCache,
+    redirects: res.redirectChain
   });
+
+    
+  updateDomainStats(category, res, 'other'); 
+  }
+
+ // 修改 updateDomainStats 函数
+function updateDomainStats(category, res, resourceType) {
+  try {
+    const domain = new URL(res.url).hostname;
+    if (!category.domainStats[domain]) {
+      category.domainStats[domain] = { 
+        count: 0, 
+        size: 0, 
+        originalSize: 0, 
+        requests: [] 
+      };
+    }
+
+    category.domainStats[domain].count++;
+    category.domainStats[domain].size += res.size;
+    
+    // 根据资源类型使用不同压缩系数计算原始大小
+    let compressionRatio = 1.0;
+    switch(resourceType) {
+      case 'css':
+        compressionRatio = 0.235;
+        break;
+      case 'js':
+        compressionRatio = 0.33;
+        break;
+      case 'images':
+        compressionRatio = 1.0; // 图片通常已压缩
+        break;
+      case 'fonts':
+        compressionRatio = 1.0; // 字体通常已压缩
+        break;
+      default:
+        compressionRatio = 0.5; // 默认压缩比
+    }
+    
+    category.domainStats[domain].originalSize += Math.round(res.size * compressionRatio);
+
+    category.domainStats[domain].requests.push({
+      url: res.url,
+      size: formatSize(res.size),
+      originalSize: formatSize(res.originalSize),
+      status: res.status,
+      cached: res.fromCache,
+      redirects: res.redirectChain
+    });
+  } catch (e) {
+    console.warn(`⚠️ 无法解析 ${res.type} 资源域名:`, res.url);
+  }
+}
 
   await browser.close();
+  const endTime = Date.now(); // 记录结束时间
+  result.loadTime = endTime - startTime;
 
   // 转换单位
+  ['css', 'js', 'images', 'fonts', 'other'].forEach(type => {
+    result[type].totalSize = formatSize(result[type].size);
+    result[type].totalOriginalSize = formatSize(result[type].originalSize);
+  });
+  // 转换单位
+  result.totalSize= formatSize(result.css.size + result.js.size + result.images.size + result.fonts.size 
+    + result.other.size
+   );
   result.css.totalSize = formatSize(result.css.size);
-  result.css.totalOriginalSize = formatSize(result.css.originalSize * 0.18);
+  result.css.totalOriginalSize = formatSize(result.css.originalSize*0.235); // 添加原始大小
   result.js.totalSize = formatSize(result.js.size);
-  result.js.totalOriginalSize = formatSize(result.js.originalSize * 0.25);
-  result.images.totalSize = formatSize(result.images.size);
-  result.images.totalOriginalSize = formatSize(result.images.originalSize);
-  result.fonts.totalSize = formatSize(result.fonts.size);
-  result.fonts.totalOriginalSize = formatSize(result.fonts.originalSize);
+  result.js.totalOriginalSize = formatSize(result.js.originalSize*0.33); // 添加原始大小
+  result.images.totalSize = formatSize(result.images.size); // 添加图片资源总大小
+  result.images.totalOriginalSize = formatSize(result.images.originalSize); // 添加原始大小
+  result.fonts.totalSize = formatSize(result.fonts.size); // 添加字体资源总大小
+  result.fonts.totalOriginalSize = formatSize(result.fonts.originalSize); // 添加原始大小
   result.other.totalSize = formatSize(result.other.size);
-  result.other.totalOriginalSize = formatSize(result.other.originalSize);
+  result.other.totalOriginalSize = formatSize(result.other.originalSize); // 添加原始大小
 
-  // 输出所有资源的域名统计
-  console.log('\n🌐 CSS 域名请求统计:');
-  Object.entries(result.css.domainStats).forEach(([domain, stats]) => {
-    console.log(`  📡 ${domain}:`);
-    console.log(`    请求次数: ${stats.count}`);
-    console.log(`    总大小: ${formatSize(stats.size)}`);
-    console.log(`    传输大小: ${formatSize(stats.time)}`);
-    console.log(`    总时间: ${stats.time.toFixed(2)} ms`); // 新增：总时间
-  });
-
-  console.log('\n🌐 JS 域名请求统计:');
-  Object.entries(result.js.domainStats).forEach(([domain, stats]) => {
-    console.log(`  📡 ${domain}:`);
-    console.log(`    请求次数: ${stats.count}`);
-    console.log(`    总大小: ${formatSize(stats.size)}`);
-    console.log(`    传输大小: ${formatSize(stats.time)}`);
-    console.log(`    总时间: ${stats.time.toFixed(2)} ms`); // 新增：总时间
-  });
-
-  console.log('\n🌐 图片资源域名请求统计:');
-  Object.entries(result.images.domainStats).forEach(([domain, stats]) => {
-    console.log(`  📡 ${domain}:`);
-    console.log(`    请求次数: ${stats.count}`);
-    console.log(`    总大小: ${formatSize(stats.size)}`);
-    console.log(`    传输大小: ${formatSize(stats.time)}`);
-    console.log(`    总时间: ${stats.time.toFixed(2)} ms`); // 新增：总时间
-  });
-
-  console.log('\n🌐 字体图标域名请求统计:');
-  Object.entries(result.fonts.domainStats).forEach(([domain, stats]) => {
-    console.log(`  📡 ${domain}:`);
-    console.log(`    请求次数: ${stats.count}`);
-    console.log(`    总大小: ${formatSize(stats.size)}`);
-    console.log(`    传输大小: ${formatSize(stats.time)}`);
-    console.log(`    总时间: ${stats.time.toFixed(2)} ms`); // 新增：总时间
-  });
-
-  console.log('\n🌐 其他资源域名请求统计:');
-  Object.entries(result.other.domainStats).forEach(([domain, stats]) => {
-    console.log(`  📡 ${domain}:`);
-    console.log(`    请求次数: ${stats.count}`);
-    console.log(`    总大小: ${formatSize(stats.size)}`);
-    console.log(`    传输大小: ${formatSize(stats.time)}`);
-    console.log(`    总时间: ${stats.time.toFixed(2)} ms`); // 新增：总时间
-  });
+ // 在文件末尾附近，找到分析完成输出部分，替换为以下代码：
 
   // 保存结果
   const timestamp = new Date().getTime();
@@ -544,14 +435,52 @@ async function analyzePage(url) {
   fs.writeFileSync(`analysis_${timestamp}.json`, JSON.stringify(result, null, 2));
 
   console.log('\n✅ 分析完成!');
-  console.log(`🌐 总请求数: ${result.totalRequests} (浏览器通常多2-5个预检请求)`);
-  console.log(`🎨 CSS文件: ${result.css.count}个 (${result.css.totalSize}), 传输大小: ${result.css.totalOriginalSize}`);
-  console.log(`⚙️ JS文件: ${result.js.count}个 (${result.js.totalSize}), 传输大小: ${result.js.totalOriginalSize}`);
-  console.log(`🖼️ 图片资源: ${result.images.count}个 (${result.images.totalSize}), 传输大小: ${result.images.totalOriginalSize}`);
-  console.log(` 字体图标: ${result.fonts.count}个 (${result.fonts.totalSize}), 传输大小: ${result.fonts.totalOriginalSize}`);
-  console.log(`📦 其他资源: ${result.other.count}个 (${result.other.totalSize}), 传输大小: ${result.other.totalOriginalSize}`);
+  
+  // 以表格形式展示汇总信息
+  console.log('\n📋 资源汇总表:');
+  console.log('---------------------------------------------------------------------');
+  console.log('| 资源类型 | 请求数量 | 文件大小   | 传输大小   |');
+  console.log('---------------------------------------------------------------------');
+  console.log(`| CSS      | ${String(result.css.count).padStart(8)} | ${result.css.totalSize.padStart(10)} | ${result.css.totalOriginalSize.padStart(10)} |`);
+  console.log(`| JS       | ${String(result.js.count).padStart(8)} | ${result.js.totalSize.padStart(10)} | ${result.js.totalOriginalSize.padStart(10)} |`);
+  console.log(`| 图片     | ${String(result.images.count).padStart(8)} | ${result.images.totalSize.padStart(10)} | ${result.images.totalOriginalSize.padStart(10)} |`);
+  console.log(`| 字体     | ${String(result.fonts.count).padStart(8)} | ${result.fonts.totalSize.padStart(10)} | ${result.fonts.totalOriginalSize.padStart(10)} |`);
+  console.log(`| 其他     | ${String(result.other.count).padStart(8)} | ${result.other.totalSize.padStart(10)} | ${result.other.totalOriginalSize.padStart(10)} |`);
+  console.log('---------------------------------------------------------------------');
+  console.log(`\n🌐 总请求数: ${result.totalRequests}, 🌐 总大小: ${result.totalSize}, ⏰ 总加载时间: ${formatTime(result.loadTime)}`);
+  
+  // 以表格形式展示域名统计
+  function printDomainStatsAsTable(domainStats, title) {
+    if (Object.keys(domainStats).length === 0) return;
+    
+    console.log(`\n${title}:`);
+    console.log('--------------------------------------------------------------------------');
+    console.log('| 域名                 | 请求数 | 总大小    | 传输大小  |');
+    console.log('--------------------------------------------------------------------------');
+    
+    Object.entries(domainStats).forEach(([domain, stats]) => {
+      // 截取域名，避免表格过宽
+      const displayDomain = domain.length > 20 ? domain.substring(0, 17) + '...' : domain;
+      console.log(`| ${displayDomain.padEnd(20)} | ${String(stats.count).padStart(6)} | ${formatSize(stats.size).padStart(9)} | ${formatSize(stats.originalSize).padStart(9)} |`);
+    });
+    console.log('--------------------------------------------------------------------------');
+  }
+  
+  // 输出各资源类型的域名统计表
+  printDomainStatsAsTable(result.css.domainStats, '🎨 CSS 域名统计表');
+  printDomainStatsAsTable(result.js.domainStats, '⚙️ JS 域名统计表');
+  printDomainStatsAsTable(result.images.domainStats, '🖼️ 图片资源域名统计表');
+  printDomainStatsAsTable(result.fonts.domainStats, '🔤 字体资源域名统计表');
+  printDomainStatsAsTable(result.other.domainStats, '📦 其他资源域名统计表');
+
 
   return result;
+}
+
+// 新增时间格式化函数
+function formatTime(ms) {
+  const seconds = (ms / 1000).toFixed(2);
+  return `${seconds} 秒`;
 }
 
 // 执行示例

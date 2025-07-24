@@ -21,7 +21,7 @@ function formatSize(bytes) {
 
 async function analyzePage(url) {
   console.log('🚀 启动浏览器...');
-  
+  const startTime = Date.now(); // 记录启动时间
   const browser = await puppeteer.launch({
     headless: false, // 启用有界面模式
  
@@ -88,19 +88,17 @@ page.on('response', async (response) => {
 
   // 增强页面加载策略
   console.log(`🌐 正在访问: ${url}`);
-  const startTime = Date.now(); // 记录启动时间
   await Promise.all([
     page.goto(url, {
       waitUntil: 'networkidle2', // 等待网络空闲
-      timeout: 120000
+      timeout: 60000
     }).then(() => console.log('🌐 页面导航完成')),
     page.waitForNetworkIdle({
       idleTime: 5000,
-      timeout: 120000
+      timeout: 60000
     }).then(() => console.log('🌐 网络空闲'))
   ]);
-  const endTime = Date.now(); // 记录结束时间
-  // result.loadTime = endTime - startTime;
+
   // 捕获动态加载资源
   await page.evaluate(() => {
     new MutationObserver(() => {}).observe(document.documentElement, {
@@ -354,7 +352,8 @@ page.on('response', async (response) => {
 
 
   await browser.close();
-  
+  const endTime = Date.now(); // 记录结束时间
+  result.loadTime = endTime - startTime;
 
   // 转换单位
   result.css.totalSize = formatSize(result.css.size);
@@ -382,8 +381,7 @@ page.on('response', async (response) => {
   fs.writeFileSync(`analysis_${timestamp}.json`, JSON.stringify(result, null, 2));
 
   console.log('\n✅ 分析完成!');
-  console.log(`🌐 总请求数: ${result.totalRequests} (浏览器通常多2-5个预检请求)`);
-  // console.log(`🌐 总请求数: ${result.totalRequests} (浏览器通常多2-5个预检请求),⏰ 总加载时间: ${formatTime(result.loadTime)}`);
+  console.log(`🌐 总请求数: ${result.totalRequests} (浏览器通常多2-5个预检请求),⏰ 总加载时间: ${formatTime(result.loadTime)}`);
   console.log(`🎨 CSS文件: ${result.css.count}个 (${result.css.totalSize}), 传输大小: ${result.css.totalOriginalSize}`);
   console.log(`⚙️ JS文件: ${result.js.count}个 (${result.js.totalSize}), 传输大小: ${result.js.totalOriginalSize }`);
   console.log(`🖼️ 图片资源: ${result.images.count}个 (${result.images.totalSize}), 传输大小: ${result.images.totalOriginalSize}`); // 添加图片资源统计
@@ -399,5 +397,5 @@ page.on('response', async (response) => {
     return `${seconds} 秒`;
   }
 // 执行示例
-const targetUrl = process.argv[2] || 'https://mao.ecer.com/test/b-blower.com/';
+const targetUrl = process.argv[2] || 'https://mao.ecer.com/test/benchtesting.com/';
 analyzePage(targetUrl).catch(console.error);
